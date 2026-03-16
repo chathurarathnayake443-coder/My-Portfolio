@@ -62,26 +62,81 @@ header > nav > div:hover{
     transition-duration: 1s;
 }
 
-#grid > #circle{
+#circle{
     width: 550px;
     height: 550px;
     border-radius: 50%;
-    border: 0.5px solid black;
+    /*border: 0.5px solid black;*/
     position: absolute;
     left: 450px;
     top: 125px;
     animation: circleAnimation 15s linear infinite;
 }
 
-#grid > #circle > div{
+#circle > div{
     width: 100px;
     height: 100px;
     border-radius: 20px;
-    border: 3px solid red;
+    background-color: rgb(243, 244, 247);
     position: absolute;
-    left: 450px;
-    top: 125px;
     animation: divCircleAnimation 15s linear infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s ease;
+}
+
+#circle  div:hover{
+    transform: scale(1.3);
+}
+
+#circle > div:nth-child(1){
+    left: 400px;
+    top: 30px;
+}
+
+#circle > div:nth-child(2){
+    left: 40px;
+    top: 40px;
+}
+
+#circle > div:nth-child(3){
+    left: 220px;
+    top: -30px;
+}
+
+#circle > div:nth-child(4){
+    left: -20px;
+    top: 200px;
+}
+
+#circle > div:nth-child(5){
+    right: -20px;
+    top: 170px;
+}
+
+#circle > div:nth-child(6){
+    left: 170px;
+    bottom: -10px;
+}
+
+#circle > div:nth-child(7){
+    left: 30px;
+    bottom: 90px;
+}
+
+#circle > div:nth-child(8){
+    right: 0px;
+    bottom: 130px;
+}
+
+#circle > div:nth-child(9){
+    right: 110px;
+    bottom: 0px;
+}
+
+.tech-icons{
+    font-size: 80px;
 }
 
 @keyframes circleAnimation {
