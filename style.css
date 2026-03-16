@@ -8,6 +8,10 @@ header{
     position: fixed;
 }
 
+body{
+    scroll-behavior: smooth;
+}
+
 header > nav{
     width: 60%;
     height: 70%;
@@ -171,7 +175,7 @@ footer{
     width: 100%;
     height: 50px;
     backdrop-filter: blur(2px);
-    z-index: 2; /* higher than video */
+    z-index: 2;
 }
 
 #test{
@@ -181,16 +185,10 @@ footer{
     position: relative;
 }
 
-main{
-    position: relative;
-    height: 10vh;
-    background-color: navajowhite;
-}
-
 #video-div {
     position: relative;
     width: 100%;
-    height: 100%; /* match your footer height */
+    height: 100%;
     overflow: hidden;
 }
 
@@ -200,7 +198,7 @@ main{
     left: 50%;
     width: 100%;
     height: 100%;
-    object-fit: cover; /* fill the div like background-size: cover */
+    object-fit: cover;
     transform: translate(-50%, -50%) rotate(180deg);
     z-index: 1;
 }
@@ -221,6 +219,11 @@ footer a{
     color: white;
     font-family: "Outfit", sans-serif;
     margin-top: 30px;
+    transition-duration: 1s;
+}
+
+footer a:hover{
+    font-size: 20px;
 }
 
 footer nav{
@@ -236,6 +239,112 @@ footer p{
 .content-div{
     height: 80%;
     font-family: "Outfit", sans-serif;
+}
+
+main{
+    position: relative;
+    background-color: white;
+}
+
+main > section:nth-child(1) > p{
+    font-family: "Outfit", sans-serif;
+    color: black;
+    font-size: 30px;
+    padding: 30px;
+}
+
+.project-section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 800px;
+    background-color: white;
+}
+
+.main-div{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+
+.text-div{
+    width: 50%;
+    height: 70%;
+    font-family: "Outfit", sans-serif;
+    font-weight: lighter;
+    padding: 10px;
+}
+
+.project-text-div{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: 100%;
+}
+
+.tag-div{
+    width: 100%;
+    height: 20%;
+}
+
+.tags{
+    width: 100px;
+    height: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+main > section > div > div:nth-child(2) > div:nth-child(2) > nav{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 350px;
+}
+
+.image-div{
+    width: 50%;
+    height: 100%;
+}
+
+#zany-text{
+    margin-top: 100px;
+    margin-left: 400px;
+    width: 100%;
+}
+
+.project-image{
+    width: 300px;
+    position: absolute;
+    z-index: 1;
+    transition-duration: 1s;
+    border-radius: 30px;
+}
+
+.project-image:hover{
+    z-index: 2;
+    transform: rotate(20deg);
+    width: 500px;
+}
+
+#zany-image-1{
+    left: 100px;
+}
+
+#zany-image-2{
+    top: 300px;
+    left: 400px;
+    transform: rotate(20deg);
+}
+
+#zany-image-3{
+    top: 450px;
+    left: 300px;
+}
+
+#zany-image-4{
+    top: 300px;
+    left: 100px;
 }
 
 @keyframes circleAnimation {
