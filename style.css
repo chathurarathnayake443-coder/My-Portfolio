@@ -157,9 +157,21 @@ header > nav > div:hover{
 
 footer{
     width: 100%;
-    height: 10vh;
+    height: 50vh;
     display: flex;
-    background-color: red;
+    background-color: black;
+    flex-direction: column;
+    position: relative;
+}
+
+.blotter {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    backdrop-filter: blur(2px);
+    z-index: 2; /* higher than video */
 }
 
 #test{
@@ -172,7 +184,36 @@ footer{
 main{
     position: relative;
     height: 10vh;
-    background-color: gray;
+    background-color: navajowhite;
+}
+
+#video-div {
+    position: relative;
+    width: 100%;
+    height: 100%; /* match your footer height */
+    overflow: hidden;
+}
+
+#video-div video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* fill the div like background-size: cover */
+    transform: translate(-50%, -50%) rotate(180deg);
+    z-index: 1;
+}
+
+#footer-content-div {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
 @keyframes circleAnimation {
