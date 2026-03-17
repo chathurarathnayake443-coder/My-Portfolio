@@ -460,10 +460,47 @@ main > section:nth-child(2) > p{
 }
 
 #project-3-text-div{
+    display: flex;
     font-family: "Outfit", sans-serif;
     font-weight: lighter;
+    padding: 50px;
+    justify-content: center;
 }
 
+#project-3-video-div {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.project-3-video {
+    width: 500px;
+    border-radius: 16px;
+    position: absolute;
+    box-shadow: 2px 4px 8px black;
+}
+
+#tutor-video-2 {
+    transform: translateX(-450px) rotate(-10deg);
+    z-index: 0;
+}
+
+#tutor-video-1 {
+    transform: translateX(0);
+    z-index: 1;
+    width: 800px;
+}
+
+#tutor-video-3 {
+    transform: translateX(450px) rotate(10deg);
+    z-index: 0;
+}
+
+#ai-project-section{
+    height: 1000px;
+}
 @keyframes circleAnimation {
     from{
         transform: rotate(0deg);
