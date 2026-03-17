@@ -10,6 +10,7 @@ header{
 
 body{
     scroll-behavior: smooth;
+    cursor: url("assets/images/cursor.png") 16 16 , auto;
 }
 
 header > nav{
@@ -44,7 +45,6 @@ header > nav > div:hover{
     width: 150px;
     height: 95%;
     font-size: 22px;
-    cursor: pointer;
     box-shadow: 2px 4px 8px black;
 }
 
@@ -147,6 +147,8 @@ header > nav > div:hover{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    backdrop-filter: blur(2px);
+    z-index: 1;
 }
 
 #text-1{
@@ -274,7 +276,6 @@ main > section:nth-child(1) > p{
     height: 70%;
     font-family: "Outfit", sans-serif;
     font-weight: lighter;
-    padding: 10px;
 }
 
 .project-text-div{
@@ -306,7 +307,6 @@ main > section:nth-child(1) > p{
     width: 120px;
     height: 30px;
     font-size: 20px;
-    cursor: pointer;
 }
 
 #tag-1{
