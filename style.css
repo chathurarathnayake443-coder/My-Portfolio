@@ -302,6 +302,7 @@ main{
     color: white;
     transition-duration: 1s;
     box-shadow: 2px 4px 8px black;
+    animation: tagAnimation 1s alternate infinite;
 }
 
 .tags:hover{
@@ -327,10 +328,26 @@ main{
     margin-top: 30px;
 }
 
+#tag-5{
+    background-color: sandybrown;
+}
+#tag-6{
+    background-color: royalblue;
+}
+#tag-7{
+    background-color: darkgreen;
+}
+#tag-8{
+    background-color: deeppink;
+}
+
 main > section > div > div:nth-child(2) > div:nth-child(2) > nav{
+    margin-left: 350px;
+}
+
+.tag-nav{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-left: 350px;
 }
 
 .image-div{
@@ -402,6 +419,46 @@ main > section:nth-child(2) > p{
     text-align: right;
 }
 
+#weda-text{
+    margin-left: 100px;
+}
+
+#weda-image-1{
+    z-index: 1;
+    margin-left: 100px;
+}
+
+#weda-image-2{
+    margin-top: 150px;
+    margin-left: 100px;
+    z-index: 0;
+}
+
+#weda-text-div{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: 70%;
+}
+
+#weda-video{
+    position: absolute;
+    right: 350px;
+}
+
+#weda-tags{
+    margin-left: 40px;
+    width: 50%;
+}
+
+#weda-section{
+    height: 600px;
+}
+
+#tag-8{
+    margin-top: 30px;
+}
+
 @keyframes circleAnimation {
     from{
         transform: rotate(0deg);
@@ -417,5 +474,14 @@ main > section:nth-child(2) > p{
     }
     to{
         transform: rotate(-360deg);
+    }
+}
+
+@keyframes tagAnimation {
+    from{
+        transform:translateY(2vh);
+    }
+    to{
+        transform:translateY(0);
     }
 }
