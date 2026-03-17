@@ -501,6 +501,28 @@ main > section:nth-child(2) > p{
 #ai-project-section{
     height: 1000px;
 }
+
+.project-3-tag-nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#tag-9{
+    background-color: royalblue;
+}
+#tag-10{
+    background-color: indianred;
+}
+#tag-11{
+    background-color: black;
+}
+#tag-12{
+    background-color: darkviolet;
+}
+#tag-13{
+    background-color: darkgoldenrod;
+}
+
 @keyframes circleAnimation {
     from{
         transform: rotate(0deg);
