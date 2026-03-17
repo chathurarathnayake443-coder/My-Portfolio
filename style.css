@@ -524,6 +524,20 @@ main > section:nth-child(4) > p{
     text-align: right;
 }
 
+#oop-video1{
+    z-index: 1;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+#oop-text-div{
+    margin-left: 400px;
+}
+
+#oop-videos{
+    margin-left: 40px;
+}
+
 @keyframes circleAnimation {
     from{
         transform: rotate(0deg);
