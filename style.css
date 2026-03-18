@@ -575,7 +575,8 @@ main > section:nth-child(4) > p{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    margin: 30px;
+    margin-top: 100px;
+    margin-bottom: 10px;
 }
 
 #UI-section-desc{
@@ -596,17 +597,38 @@ main > section:nth-child(4) > p{
 #ui-div-1{
     margin-top: 80px;
     border-radius: 50px;
-    border: 1px solid gray;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     width: 600px;
-    opacity: 0.3;
+    border-left-color: white;
 }
 
 #ui-div-2{
     margin-top: 80px;
     border-radius: 50px;
-    border: 1px solid gray;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     width: 600px;
-    opacity: 0.3;
+}
+
+#ui-image-1{
+    width: 200px;
+    transform: translateY(-100px) rotate(-10deg) translateX(-600px);
+    animation: moveOnScroll linear;
+    animation-timeline: scroll();
+    animation-fill-mode: both;
+}
+
+#ui-image-2{
+    width: 500px;
+    transform: translateY(250px) rotate(0deg) translateX(150px);
+}
+
+@keyframes moveOnScroll {
+    from {
+        transform: translateY(-100px) rotate(-10deg) translateX(600px);
+    }
+    to {
+        transform: translateX(-100px) translateY(-100px);
+    }
 }
 
 @keyframes uiTextAnimation {
