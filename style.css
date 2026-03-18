@@ -488,6 +488,11 @@ main > section:nth-child(2) > p{
     transform: translateX(0);
     z-index: 1;
     width: 800px;
+    transition-duration: 1s;
+}
+
+#tutor-video-1:hover{
+    width: 850px;
 }
 
 #tutor-video-3 {
@@ -526,16 +531,91 @@ main > section:nth-child(4) > p{
 
 #oop-video1{
     z-index: 1;
-    margin-left: 200px;
+    margin-left: 220px;
     margin-top: 50px;
+    width: 300px;
 }
 
 #oop-text-div{
-    margin-left: 400px;
+    margin-left: 350px;
+    height: 60%;
 }
 
 #oop-videos{
     margin-left: 40px;
+}
+
+#tag-14{
+    background-color: sandybrown;
+}
+#tag-15{
+    background-color: orangered;
+}
+#tag-16{
+    background-color: hotpink;
+}
+
+#oop-section{
+    position: relative;
+    height: 600px;
+}
+
+#UI-section-title{
+    font-family: "Outfit", sans-serif;
+    font-size: 80px;
+    text-align: center;
+    animation: uiTextAnimation 4s infinite alternate ease-in-out;
+    /*text-shadow:*/
+    /*        0px 2px 4px rgba(0,0,0,0.3),*/
+    /*        0px 8px 16px rgba(0,0,0,0.2),*/
+    /*        0px 20px 40px rgba(0,0,0,0.15);*/
+
+    background: linear-gradient(90deg,black, black,black,black,gray,black, white, blue, deeppink, darkviolet, deepskyblue);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin: 30px;
+}
+
+#UI-section-desc{
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: lighter;
+    margin: 0;
+}
+
+#ui-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 600px;
+}
+
+#ui-div-1{
+    margin-top: 80px;
+    border-radius: 50px;
+    border: 1px solid gray;
+    width: 600px;
+    opacity: 0.3;
+}
+
+#ui-div-2{
+    margin-top: 80px;
+    border-radius: 50px;
+    border: 1px solid gray;
+    width: 600px;
+    opacity: 0.3;
+}
+
+@keyframes uiTextAnimation {
+    from{
+        background-position: 0%;
+    }
+    to{
+        background-position: 100%;
+    }
 }
 
 @keyframes circleAnimation {
