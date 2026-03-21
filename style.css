@@ -676,9 +676,16 @@ main > section:nth-child(4) > p{
 /*    width: 366px;*/
 /*    transform: translateY(-20px) translateX(-308px);*/
 /*}*/
+
+#ai-companion-text{
+    font-family: "Outfit", sans-serif;
+    text-align: center;
+    font-weight: normal;
+    font-size: 50px;
+}
 @keyframes moveOnScrollPhone {
     from {
-        transform: translateY(-10px) rotate(-10deg) translateX(600px);
+        transform: translateY(-10px) rotate(-10deg) translateX(315px);
     }
     to {
         transform: translateX(-100px) translateY(-100px);
@@ -696,7 +703,7 @@ main > section:nth-child(4) > p{
 
 @keyframes moveOnScrollMac {
     from {
-        transform: translateY(800px) rotate(0deg) translateX(100px);
+        transform: translateY(400px) rotate(0deg) translateX(100px);
     }
     to {
         transform: translateY(-150px) translateX(100px);
