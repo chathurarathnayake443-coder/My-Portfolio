@@ -8,6 +8,10 @@ header{
     position: fixed;
 }
 
+#mobile-nav{
+    display: none;
+}
+
 body{
     cursor: url("assets/images/cursor.png") 16 16 , auto;
     overflow-y: scroll;
@@ -18,7 +22,7 @@ html {
     scroll-behavior: smooth;
 }
 
-header > nav{
+#desktop-nav{
     width: 60%;
     height: 70%;
     border: 2px solid black;
@@ -30,8 +34,8 @@ header > nav{
     backdrop-filter: blur(2px);
 }
 
-header > nav > div{
-    width: 120px;
+#desktop-nav > div{
+    width: 60%;
     height: 90%;
     border-radius: 30px;
     display: flex;
@@ -40,14 +44,14 @@ header > nav > div{
     transition-duration: 1s;
 }
 
-header > nav > div > a{
+#desktop-nav > div > a{
     font-family: "Outfit", sans-serif;
     color: black;
     text-decoration: none;
 }
 
-header > nav > div:hover{
-    width: 150px;
+#desktop-nav > div:hover{
+    width: 75%;
     height: 95%;
     font-size: 22px;
     box-shadow: 2px 4px 8px black;
@@ -683,6 +687,26 @@ main > section:nth-child(4) > p{
     font-weight: normal;
     font-size: 50px;
 }
+
+@media all and (max-width: 480px) {
+    #desktop-nav{
+        display: none;
+    }
+
+    #mobile-nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 60%;
+        height: 70%;
+    }
+
+    header{
+        display: flex;
+        justify-content: center;
+    }
+}
+
 @keyframes moveOnScrollPhone {
     from {
         transform: translateY(-10px) rotate(-10deg) translateX(315px);
