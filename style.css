@@ -792,7 +792,7 @@ main > section:nth-child(4) > p{
         font-family: "Outfit", sans-serif;
     }
     header{
-        backdrop-filter: blur(200px);
+        background-color: white;
         position: fixed;
     }
     #circle{
@@ -901,7 +901,18 @@ main > section:nth-child(4) > p{
     #ui-text-div{
         width: 100%;
     }
-    #ui-div-1, #ui-div-2{
+    #ui-div-1{
         width: 100%;
+        height: 300px;
+    }
+    #ui-div-2{
+        width: 100%;
+        height: 500px;
+    }
+    #ai-companion-text{
+        margin-top: 150px;
+    }
+    #tag-17, #tag-18{
+        margin-top: 0;
     }
 }
