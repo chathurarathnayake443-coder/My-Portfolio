@@ -814,6 +814,7 @@ main > section:nth-child(4) > p{
     #zany-video{
         justify-content: center;
         margin: 0;
+        transform: translateX(70px);
         width: 100%;
         position: relative;
     }
@@ -823,17 +824,17 @@ main > section:nth-child(4) > p{
     #ui-section{
         flex-direction: column;
     }
-    #tutor-video-1, #tutor-video-3{
+    #tutor-video-2, #tutor-video-3{
         display: none;
     }
-    #zany-text{
+    #zany-text, #weda-text{
         margin: 0;
         width: 100%;
+        padding: 10px;
     }
     .project-text-div{
         flex-direction: column;
     }
-
     .image-div{
         width: 70%;
     }
@@ -843,5 +844,37 @@ main > section:nth-child(4) > p{
     .tags{
         margin: 0;
         transform: translateX(100px);
+    }
+    main > section > div > div:nth-child(2) > div:nth-child(2) > nav{
+        margin: 0;
+        padding: 10px;
+    }
+    #weda-image-1{
+        display: none;
+    }
+    #weda-image-2{
+        display: none;
+    }
+    .project-title{
+        margin: 0;
+    }
+    #weda-text-div,#zany-text{
+        text-align: center;
+    }
+    #weda-video{
+        width: 300px;
+        transform: translateX(250px) translateY(50px);
+    }
+    #tutor-video-1{
+        width: 450px;
+    }
+    #project-3-video-div{
+        height: 300px;
+    }
+    #ai-project-section{
+        height: 800px;
+    }
+    .project-section{
+        height: 700px;
     }
 }
