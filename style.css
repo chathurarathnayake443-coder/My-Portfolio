@@ -793,6 +793,7 @@ main > section:nth-child(4) > p{
     }
     header{
         backdrop-filter: blur(200px);
+        position: fixed;
     }
     #circle{
         display: none;
@@ -876,5 +877,18 @@ main > section:nth-child(4) > p{
     }
     .project-section{
         height: 700px;
+    }
+    #oop-video2{
+        display: none;
+        margin: 0;
+    }
+    #oop-video1{
+        margin-top: 0;
+        margin-left: 0px;
+        width: 250px;
+    }
+    #oop-text-div{
+        margin-left: 0;
+        padding: 10px;
     }
 }
