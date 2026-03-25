@@ -717,6 +717,10 @@ main > section:nth-child(4) > p{
     animation: ai-icon-flow 20s linear infinite;
 }
 
+#logo-wrapper{
+    transform: rotate(8deg);
+}
+
 #ai-logo-section{
     overflow: hidden;
 }
@@ -726,7 +730,6 @@ main > section:nth-child(4) > p{
 }
 #ai-logos > img:hover{
     height: 20vh;
-    to
 }
 
 @keyframes ai-icon-flow {
@@ -765,15 +768,6 @@ main > section:nth-child(4) > p{
         transform: translateX(-100px) translateY(-100px);
     }
 }
-
-/*@keyframes moveOnScrollvideo {*/
-/*    from {*/
-/*        transform: translateY(-20px) translateX(-308px);*/
-/*    }*/
-/*    to{*/
-/*        transform: translateY(150px);*/
-/*    }*/
-/*}*/
 
 @keyframes moveOnScrollMac {
     from {
@@ -954,5 +948,12 @@ main > section:nth-child(4) > p{
     }
     #tag-17, #tag-18{
         margin-top: 0;
+    }
+    #ai-logos > img{
+        height: 10vh;
+        transition-duration: 1s;
+    }
+    #ai-logos > img:hover{
+        height: 15vh;
     }
 }
