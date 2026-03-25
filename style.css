@@ -718,7 +718,7 @@ main > section:nth-child(4) > p{
 }
 
 #logo-wrapper{
-    transform: rotate(8deg);
+    transform: rotate(8deg) translateY(100px);
 }
 
 #ai-logo-section{
@@ -801,11 +801,7 @@ main > section:nth-child(4) > p{
     flex-direction: column;
     width: 40vw;
     height: 30vh;
-    animation: yt-video-flow 10s ease infinite alternate;
-}
-
-.v-div{
-
+    animation: yt-video-flow 10s ease-in-out infinite alternate;
 }
 
 .yt-desc{
@@ -934,6 +930,40 @@ main > section:nth-child(4) > p{
 }
 
 @media all and (max-width: 520px) {
+    #yt-video-section > p{
+        text-align: center;
+        font-family: "Outfit", sans-serif;
+        font-size: 40px;
+        margin-top: 300px;
+        margin-bottom: 0;
+        color: darkmagenta;
+    }
+    .v-div > iframe{
+        width: 500px;
+    }
+    #yt-video-div{
+        width: 200vw;
+        margin-top: 80px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 400px;
+    }
+
+    .yt-div{
+        display: flex;
+        flex-direction: column;
+        width: 30vw;
+        height: 20vh;
+        animation: yt-video-flow 10s ease-in-out infinite alternate;
+    }
+    #yt-video-section > p{
+        text-align: center;
+        font-family: "Outfit", sans-serif;
+        font-size: 50px;
+        color: darkmagenta;
+    }
     #desktop-nav{
         display: none;
     }
