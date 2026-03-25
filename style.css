@@ -836,6 +836,49 @@ main > section:nth-child(4) > p{
     align-items: center;
 }
 
+#say-hi-div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#say-hi-section{
+    height: 1000px;
+    width: 100vw;
+    overflow: hidden;
+}
+#image-div{
+    width: 50%;
+}
+#image-div > img{
+    transform: translateX(200px);
+}
+#say-hi-form{
+    transform: translateX(200px) translateY(20px);
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+#submit-btn{
+    width: 130px;
+    height: 30px;
+    margin-top: 40px;
+    font-family: "Outfit", sans-serif;
+}
+#say-hi-form > p{
+    font-family: "Ovo", sans-serif;
+    color: rgb(140, 140, 140);
+}
+#say-hi-form > input{
+    background-color: rgb(243, 244, 247);
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 400px;
+}
+#fields-div{
+    width: 50%;
+}
 @keyframes yt-video-flow {
     0%, 20% {
         transform: translateX(0px);
@@ -903,19 +946,19 @@ main > section:nth-child(4) > p{
 
 @keyframes moveOnScrollPhone {
     from {
-        transform: translateY(-10px) rotate(-10deg) translateX(315px);
+        transform: translateY(-10px) rotate(-10deg) translateX(250px);
     }
     to {
-        transform: translateX(-100px) translateY(-100px);
+        transform: translateX(-250px) translateY(-100px);
     }
 }
 
 @keyframes moveOnScrollMac {
     from {
-        transform: translateY(400px) rotate(0deg) translateX(100px);
+        transform: translateY(180px) rotate(0deg) translateX(200px);
     }
     to {
-        transform: translateY(-150px) translateX(100px);
+        transform: translateY(-250px) translateX(100px);
     }
 }
 
