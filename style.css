@@ -155,7 +155,7 @@ html {
 
 .text-container{
     position: absolute;
-    width: 200px;
+    width: 400px;
     height: 50px;
     top: 0;
     left: 0;
@@ -273,6 +273,7 @@ main{
     width: 100%;
     height: 800px;
     background-color: white;
+    overflow: hidden;
 }
 
 .main-div{
@@ -839,7 +840,7 @@ main > section:nth-child(4) > p{
 #say-hi-div{
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 100vw;
 }
 
 #say-hi-section{
@@ -858,6 +859,7 @@ main > section:nth-child(4) > p{
     display: flex;
     flex-direction: column;
     justify-content: left;
+    width: 400px;
 }
 #submit-btn{
     width: 160px;
@@ -874,6 +876,11 @@ main > section:nth-child(4) > p{
     cursor: url("assets/images/cursor.png") 16 16 , auto;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     transform: translateX(120px);
+    transition-duration: 1s;
+}
+#submit-btn:hover{
+    color: white;
+    background: black;
 }
 #say-hi-form > p{
     font-family: "Ovo", sans-serif;
@@ -885,9 +892,10 @@ main > section:nth-child(4) > p{
     border-radius: 10px;
     height: 40px;
     width: 400px;
+    padding: 5px;
 }
 #fields-div{
-    width: 300px;
+    width: 50%;
 }
 @keyframes yt-video-flow {
     0%, 20% {
@@ -1183,5 +1191,8 @@ main > section:nth-child(4) > p{
     }
     #ai-logos > img:hover{
         height: 15vh;
+    }
+    #say-hi-form{
+        transform: translateX(-200px);
     }
 }
