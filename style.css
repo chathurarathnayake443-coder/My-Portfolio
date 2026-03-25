@@ -860,10 +860,20 @@ main > section:nth-child(4) > p{
     justify-content: left;
 }
 #submit-btn{
-    width: 130px;
-    height: 30px;
+    width: 160px;
+    height: 40px;
     margin-top: 40px;
     font-family: "Outfit", sans-serif;
+    background: linear-gradient(to right, rgb(115, 163, 42),rgb(98, 133, 47));
+    border: none;
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: url("assets/images/cursor.png") 16 16 , auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transform: translateX(120px);
 }
 #say-hi-form > p{
     font-family: "Ovo", sans-serif;
@@ -877,7 +887,7 @@ main > section:nth-child(4) > p{
     width: 400px;
 }
 #fields-div{
-    width: 50%;
+    width: 300px;
 }
 @keyframes yt-video-flow {
     0%, 20% {
