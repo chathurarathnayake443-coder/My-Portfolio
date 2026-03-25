@@ -731,6 +731,13 @@ main > section:nth-child(4) > p{
 #ai-logos > img:hover{
     height: 20vh;
 }
+#software-icon-container > p{
+    font-family: "Outfit", sans-serif;
+    text-align: center;
+    font-weight: normal;
+    font-size: 50px;
+    margin-top: 150px;
+}
 
 @keyframes ai-icon-flow {
     0%{
