@@ -31,7 +31,7 @@ html {
     justify-content: space-evenly;
     align-items: center;
     margin-top: 50px;
-    backdrop-filter: blur(500px);
+    backdrop-filter: blur(50px);
 }
 
 #desktop-nav > div{
@@ -801,13 +801,39 @@ main > section:nth-child(4) > p{
     flex-direction: column;
     width: 40vw;
     height: 30vh;
-    animation: yt-video-flow 10s ease-in-out infinite alternate;
+    animation: yt-video-flow 8s ease-in-out infinite alternate;
 }
 
 .yt-desc{
     font-family: "Outfit", sans-serif;
     font-weight: lighter;
     text-align: center;
+}
+
+#say-hi-logo{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#say-hi-text{
+    font-family: "Outfit", sans-serif;
+    text-align: center;
+    font-weight: normal;
+    font-size: 50px;
+}
+
+#say-hi-logo-circle{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border-style: dashed;
+    border-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @keyframes yt-video-flow {
