@@ -736,7 +736,110 @@ main > section:nth-child(4) > p{
     text-align: center;
     font-weight: normal;
     font-size: 50px;
-    margin-top: 150px;
+    margin-top: 100px;
+}
+#software-icons-div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow: hidden;
+}
+.icon-set{
+    width: 200vw;
+    height: 20vh;
+    background-color: white;
+    gap: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-set > img{
+    height: 15vh;
+}
+
+#icon-set-2{
+    transform: translateX(-80px);
+    animation: ai-icon-flow-reverse 50s linear infinite;
+    /*animation: moveOnScrollPhone linear;*/
+    /*animation-timeline: scroll();*/
+    /*animation-fill-mode: both;*/
+}
+
+#icon-set-1, #icon-set-3{
+    animation: ai-icon-flow 50s linear infinite;
+}
+
+#software-icons-div{
+    margin-top: 80px;
+}
+
+#yt-video-section{
+    overflow: hidden;
+}
+
+#yt-video-section > p{
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-size: 80px;
+    color: darkmagenta;
+}
+
+#yt-video-div{
+    width: 200vw;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 75px;
+}
+
+.yt-div{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    height: 30vh;
+    animation: yt-video-flow 10s ease infinite alternate;
+}
+
+.v-div{
+
+}
+
+.yt-desc{
+    font-family: "Outfit", sans-serif;
+    font-weight: lighter;
+    text-align: center;
+}
+
+@keyframes yt-video-flow {
+    0%, 20% {
+        transform: translateX(0px);
+    }
+
+    30%, 40%{
+        transform: translateX(-40vw);
+    }
+    50%,60%{
+        transform: translateX(-80vw);
+    }
+    70%,80%{
+        transform: translateX(-120vw);
+    }
+    90%,100%{
+        transform: translateX(-160vw);
+    }
+}
+
+@keyframes fast-flow-reverse {
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(-200vw);
+    }
 }
 
 @keyframes ai-icon-flow {
@@ -745,6 +848,15 @@ main > section:nth-child(4) > p{
     }
     100%{
         transform: translateX(-100vw);
+    }
+}
+
+@keyframes ai-icon-flow-reverse {
+    0%{
+        transform: translateX(-100vw);
+    }
+    100%{
+        transform: translateX(0vw);
     }
 }
 
