@@ -608,7 +608,12 @@ main > section:nth-child(4) > p{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    height: 500px;
+    height: auto;
+    padding-bottom: 80px;
+}
+#ui-section.project-section {
+    height: auto;
+    overflow: visible;
 }
 
 #ui-div-1{
@@ -619,6 +624,7 @@ main > section:nth-child(4) > p{
     border-left-color: white;
     display: flex;
     flex-direction: row;
+    height: 450px;
 }
 
 #ui-div-2{
@@ -626,6 +632,7 @@ main > section:nth-child(4) > p{
     border-radius: 50px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     width: 550px;
+    height: 450px;
 }
 
 #ui-image-1{
