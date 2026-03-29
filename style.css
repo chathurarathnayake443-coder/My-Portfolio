@@ -904,6 +904,77 @@ main > section:nth-child(4) > p{
 #fields-div{
     width: 50%;
 }
+
+#ui-2-text-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#ui-section-2{
+    display: flex;
+    flex-direction: column;
+}
+
+#ui-2-container{
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+}
+
+.ui-hover-btn{
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    font-family: "Outfit", sans-serif;
+    font-size: 14px;
+    border-color: darkgrey;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition-duration: 1s;
+}
+.ui-hover-btn:hover{
+    color: white;
+    background: black;
+    border-top-color: black;
+    border-bottom-color: white;
+    font-size: 16px;
+}
+#ui-hover-btn-2{
+    transform: translateX(-20px);
+}
+#ui-hover-btn-3{
+    transform: translateX(-40px);
+}
+#ui-hover-btn-4{
+    transform: translateX(-60px);
+}
+#btn-group{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#ui-view{
+    width: 50%;
+    height: 90%;
+}
+
+#text1{
+    font-family: "Outfit", sans-serif;
+    font-size: 80px;
+    font-weight: normal;
+}
+#text2{
+    font-family: "Outfit", sans-serif;
+    margin-left: 30px;
+    transform: translateY(13px);
+    font-size: 40px;
+    color: royalblue;
+}
 @keyframes yt-video-flow {
     0%, 20% {
         transform: translateX(0px);
@@ -971,10 +1042,10 @@ main > section:nth-child(4) > p{
 
 @keyframes moveOnScrollPhone {
     from {
-        transform: translateY(-10px) rotate(-10deg) translateX(250px);
+        transform: translateY(-10px) rotate(-10deg) translateX(180px);
     }
     to {
-        transform: translateX(-250px) translateY(-100px);
+        transform: translateX(-200px) translateY(-100px);
     }
 }
 
@@ -983,7 +1054,7 @@ main > section:nth-child(4) > p{
         transform: translateY(180px) rotate(0deg) translateX(200px);
     }
     to {
-        transform: translateY(-250px) translateX(100px);
+        transform: translateY(-280px) translateX(100px);
     }
 }
 
