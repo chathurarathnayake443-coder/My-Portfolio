@@ -991,12 +991,16 @@ main > section:nth-child(4) > p{
     transform: rotate(140deg);
     top: -410px;
     left: -140px;
+    filter: drop-shadow(0px 10px 15px rgba(0,0,0,0.4));
+    transition-duration: 0.4s;
 }
 
 #i-phone{
     position: relative;
     top: -290px;
     right: -685px;
+    filter: drop-shadow(0px 10px 15px rgba(0,0,0,0.4));
+    transition-duration: 0.4s;
 }
 
 #mac{
@@ -1004,7 +1008,39 @@ main > section:nth-child(4) > p{
     top: 250px;
     right: 985px;
     transform: rotate(-15deg);
+    filter: drop-shadow(0px 10px 15px rgba(0,0,0,0.4));
+    transition-duration: 0.4s;
 }
+
+#brief-case:hover, #i-phone:hover{
+    width: 530px;
+}
+#mac:hover{
+    width: 750px;
+}
+#ipods:hover{
+    width: 350px;
+}
+
+#ipods{
+    position: absolute;
+    top: 450px;
+    filter: drop-shadow(0px 10px 15px rgba(0,0,0,0.4));
+    transition-duration: 0.4s;
+}
+
+#experience-section-1 > h1{
+    font-family: "Petit+Formal+Script", sans-serif;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    font-weight: normal;
+}
+
+#brief-case > {}
 @keyframes yt-video-flow {
     0%, 20% {
         transform: translateX(0px);
