@@ -998,6 +998,13 @@ main > section:nth-child(4) > p{
     top: -290px;
     right: -685px;
 }
+
+#mac{
+    position: absolute;
+    top: 250px;
+    right: 985px;
+    transform: rotate(-15deg);
+}
 @keyframes yt-video-flow {
     0%, 20% {
         transform: translateX(0px);
