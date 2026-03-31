@@ -982,7 +982,7 @@ main > section:nth-child(4) > p{
 }
 
 #experience-section-1{
-    height: 200vh;
+    height: 100vh;
     width: 100%;
     position: relative;
 }
@@ -1081,6 +1081,297 @@ main > section:nth-child(4) > p{
     top: 25px;
 }
 
+#experience-section-2{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#circle-container{
+    height: 80%;
+    width: 100%;
+    position: relative;
+}
+
+#circle-1{
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: rgb(87, 183, 218);
+    top: 120px;
+    filter: blur(120px);
+    animation: circle1-color-change 2s alternate infinite;
+}
+#circle-2{
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: rgb(86, 184, 86);
+    top: 250px;
+    filter: blur(120px);
+    animation: circle2-color-change 2s alternate infinite;
+}
+#circle-3{
+    position: absolute;
+    height: 300px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: rgb(218, 150, 87);
+    top: 100px;
+    left: 200px;
+    filter: blur(120px);
+    animation: circle3-color-change 2s alternate infinite;
+}
+#circle-4{
+    position: absolute;
+    height: 300px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: rgb(218, 87, 87);
+    top: 240px;
+    left: 200px;
+    filter: blur(120px);
+    animation: circle4-color-change 2s alternate infinite;
+}
+#circle-5{
+    position: absolute;
+    height: 300px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: rgb(218, 216, 87);
+    top: 100px;
+    left: 420px;
+    filter: blur(120px);
+    animation: circle5-color-change 2s alternate infinite;
+}
+#circle-6{
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: rgb(87, 183, 218);
+    top: 280px;
+    left: 440px;
+    filter: blur(120px);
+    animation: circle6-color-change 2s alternate infinite;
+}
+#circle-7{
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: rgb(87, 183, 218);
+    top: 120px;
+    left: 620px;
+    filter: blur(120px);
+    animation: circle7-color-change 2s alternate infinite;
+}
+#circle-8{
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: rgb(86, 184, 86);
+    top: 260px;
+    left: 620px;
+    filter: blur(120px);
+    animation: circle8-color-change 2s alternate infinite;
+}
+#circle-9{
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: rgb(218, 87, 87);
+    top: 120px;
+    left: 780px;
+    filter: blur(120px);
+    animation: circle9-color-change 2s alternate infinite;
+}
+#circle-10{
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: rgb(218, 150, 87);
+    top: 250px;
+    left: 780px;
+    filter: blur(120px);
+    animation: circle10-color-change 2s alternate infinite;
+}
+#circle-11{
+    position: absolute;
+    height: 300px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: rgb(86, 184, 86);
+    top: 120px;
+    left: 950px;
+    filter: blur(120px);
+    animation: circle11-color-change 2s alternate infinite;
+}
+#circle-12{
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: rgb(218, 216, 87);
+    top: 250px;
+    left: 950px;
+    filter: blur(120px);
+    animation: circle12-color-change 2s alternate infinite;
+}
+#circle-13{
+    position: absolute;
+    height: 300px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: rgb(218, 87, 87);
+    top: 120px;
+    left: 1200px;
+    filter: blur(120px);
+    animation: circle13-color-change 2s alternate infinite;
+}
+#circle-14{
+    position: absolute;
+    height: 300px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: rgb(87, 183, 218);
+    top: 250px;
+    left: 1150px;
+    filter: blur(120px);
+    animation: circle14-color-change 2s alternate infinite;
+}
+
+#moment-text{
+    position: absolute;
+    top: 280px;
+    left: 180px;
+    font-family: "Outfit", sans-serif;
+    color: white;
+    font-size: 100px;
+    font-weight: normal;
+}
+
+@keyframes circle1-color-change {
+    from{
+        background-color: rgb(87, 183, 218);
+    }
+    to{
+        background-color: rgb(218, 87, 87);
+    }
+}
+@keyframes circle2-color-change {
+    from{
+        background-color: rgb(86, 184, 86);
+    }
+    to{
+        background-color: rgb(218, 150, 87);
+    }
+}
+@keyframes circle3-color-change {
+    from{
+        background-color: rgb(218, 150, 87);
+    }
+    to{
+        background-color: rgb(218, 87, 87);
+    }
+}
+@keyframes circle4-color-change {
+    from{
+        background-color: rgb(218, 87, 87);
+    }
+    to{
+        background-color: mediumvioletred;
+    }
+}
+@keyframes circle5-color-change {
+    from{
+        background-color: rgb(218, 216, 87);
+    }
+    to{
+        background-color: rgb(218, 87, 87);
+    }
+}
+@keyframes circle6-color-change {
+    from{
+        background-color: rgb(87, 183, 218);
+    }
+    to{
+        background-color: darkgreen;
+    }
+}
+@keyframes circle7-color-change {
+    from{
+        background-color: rgb(87, 183, 218);
+    }
+    to{
+        background-color: mediumvioletred;
+    }
+}
+@keyframes circle8-color-change {
+    from{
+        background-color: rgb(86, 184, 86);
+    }
+    to{
+        background-color: mediumslateblue;
+    }
+}
+@keyframes circle9-color-change {
+    from{
+        background-color: rgb(218, 87, 87);
+    }
+    to{
+        background-color: yellowgreen;
+    }
+}
+@keyframes circle10-color-change {
+    from{
+        background-color: rgb(218, 150, 87);
+    }
+    to{
+        background-color: dodgerblue;
+    }
+}
+@keyframes circle11-color-change {
+    from{
+        background-color: rgb(86, 184, 86);
+    }
+    to{
+        background-color: deeppink;
+    }
+}
+@keyframes circle12-color-change {
+    from{
+        background-color: rgb(218, 216, 87);
+    }
+    to{
+        background-color: dimgray;
+    }
+}
+@keyframes circle13-color-change {
+    from{
+        background-color: rgb(218, 87, 87);
+    }
+    to{
+        background-color: yellowgreen;
+    }
+}
+@keyframes circle14-color-change {
+    from{
+        background-color: rgb(87, 183, 218);
+    }
+    to{
+        background-color: orangered;
+    }
+}
 @keyframes curve-text-rotate {
     from {
         transform: rotate(0deg);
