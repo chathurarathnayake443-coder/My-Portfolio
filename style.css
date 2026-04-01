@@ -1261,9 +1261,64 @@ main > section:nth-child(4) > p{
 }
 
 #experience-section-3{
-    margin-top: 200px;
-    height: 800vh;
+    height: 700vh;
     width: 100%;
+    box-shadow: 0 -10px 20px rgba(0,0,0,0.5);
+}
+#gallery-video{
+    margin-top: 20px;
+    position: relative;
+    width: 100%;
+}
+#beach-text{
+    position: absolute;
+    font-family: "Outfit", sans-serif;
+    opacity: 0.6;
+    font-size: 200px;
+    font-weight: normal;
+    left: 400px;
+    top: 100px;
+    color: transparent;
+    background: rgba(255, 255, 255, 0.15);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 1);
+    filter: drop-shadow(0 4px 15px rgba(255, 255, 255, 0.2));
+}
+#gallery-blotter2{
+    position: absolute;
+    background-color: black;
+    filter: blur(20px);
+    z-index: 1;
+    top: 550px;
+    width: 100%;
+}
+#gallery-blotter1{
+    position: absolute;
+    background-color: white;
+    filter: blur(20px);
+    z-index: 1;
+    top: -30px;
+    width: 100%;
+    height: 30vh;
+}
+#blot-util-1{
+    position: absolute;
+    background-color: white;
+    filter: blur(20px);
+    z-index: 1;
+    top: -20px;
+    width: 100%;
+    height: 5vh;
+}
+#blot-util-2{
+    position: absolute;
+    background-color: black;
+    filter: blur(20px);
+    z-index: 1;
+    top: 580px;
+    width: 110vw;
+    height: 5vh;
 }
 #gallery-title{
     position: sticky;
