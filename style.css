@@ -1275,51 +1275,70 @@ main > section:nth-child(4) > p{
     color: white;
 }
 
-#img2{
-    left: 200px;
-    top: 150px;
+#img23{
+    left: 150px;
+    top: 50px;
 }
 #img3{
-    left: 400px;
+    left: 250px;
 }
 #img4{
-    top: 400px;
+    top: 100px;
     left: 800px;
 }
 #img6{
-    top: 50px;
+    bottom: 100px;
     right: 50px;
 }
+#img18{
+    bottom: 2900px;
+    left: 150px;
+}
 #img5{
-    top: 1100px;
+    top: 600px;
     left: 250px;
 }
 #img8{
-    top: 900px;
+    top: 400px;
     left: 200px;
 }
 #img16{
-    top: 1000px;
-    left: 500px;
+    top: 500px;
+    left: 400px;
 }
 #img15{
-    top: 1000px;
-    right: 20px;
+    top: 600px;
+    right: 550px;
+}
+#img1{
+    bottom: 100px;
+    left: 300px;
+}
+#img2{
+    left: 400px;
+    bottom: 200px;
 }
 #img14{
-    top: 1100px;
+    top: 100px;
     right: 600px;
 }
+#img19{
+    bottom: 800px;
+    right: 100px;
+}
+#img21{
+    bottom: 500px;
+}
 #img13{
-    top: 200px;
-    left: 200px;
+    bottom: 900px;
+    left: 830px;
 }
 #img12{
-    top: 1200px;
+    top: 850px;
     left: 200px;
 }
 #img10{
-    top: 500px;
+    top: 0;
     right: 10px;
 }
 #gallery{
@@ -1332,8 +1351,13 @@ main > section:nth-child(4) > p{
 .img{
     margin: 30px;
     position: relative;
+    transition-duration: 0.4s;
+    border-radius: 30px;
 }
 
+.img:hover{
+    transform: translateX(20px) translateY(20px) scale(1.2);
+}
 @keyframes circle1-color-change {
     from{
         background-color: rgb(87, 183, 218);
