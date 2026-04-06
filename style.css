@@ -1849,15 +1849,21 @@ main > section:nth-child(4) > p{
 }
 #my-photo{
     transform: translateX(500px) translateY(150px);
+    position: relative;
     z-index: 2;
 }
-#chathura{
+#chathura-text{
     font-family: 'Outfit', sans-serif;
     position: absolute;
-    font-size: 300px;
+    font-size: 250px;
     top: 100px;
-    left: 60px;
+    left: 55px;
     z-index: 1;
+    background: linear-gradient(180deg, black, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.5);
 }
 #floating-island{
     position: absolute;
