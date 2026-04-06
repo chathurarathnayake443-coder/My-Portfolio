@@ -1870,6 +1870,45 @@ main > section:nth-child(4) > p{
     top: 150px;
     right: 380px;
 }
+#qualifications{
+    font-family: 'Outfit', sans-serif;
+    position: absolute;
+    font-size: 20px;
+    top: 100px;
+    left: 55px;
+    color: black;
+    font-weight: lighter;
+    transform: translateX(900px) translateY(500px);
+}
+#home-section-4{
+    width: 100%;
+    height: 500px;
+}
+#education-heading{
+    font-family: 'Outfit', sans-serif;
+    color: black;
+    font-size: 50px;
+    position: relative;
+    right: 620px;
+}
+#edu-cont{
+    height: 250px;
+    width: 90%;
+    position: relative;
+    left: 80px;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.small-edu{
+    width: 240px;
+    height: 240px;
+    border-radius: 30px;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
 @keyframes shootingStar {
     0% {
         transform: translateX(0) translateY(0) rotate(45deg);
