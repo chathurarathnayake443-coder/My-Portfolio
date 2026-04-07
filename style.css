@@ -2961,14 +2961,17 @@ button, a{
     #home-section-1,#home-section-2,#home-section-3,#home-section-4,#home-section-5,#home-section-6,#home-section-7,#home-section-8{
         overflow-x: hidden;
     }
+    #home-section-1{
+        height: 150vh;
+    }
     #ufo-1{
-        width: 200px;
+        width: 180px;
         margin-top: 80px;
         margin-left: 15px;
     }
     #ufo-2{
         width: 160px;
-        margin-top: 80px;
+        margin-top: 60px;
         margin-left: 10px;
     }
     #heading-piece{
@@ -2981,14 +2984,14 @@ button, a{
         left: 20px;
     }
     #its-text{
-        top: 140px;
-        left: 200px;
+        top: 130px;
+        left: 190px;
         font-size: 40px;
     }
     #hero-astro{
         left: 28%;
         width: 200px;
-        top: 180px;
+        top: 160px;
     }
     #explore{
         top: 600px;
@@ -3003,11 +3006,20 @@ button, a{
         top: 550px;
     }
     #floating-island{
+        position: absolute;
         right: 1050px;
         width: 200px;
-        top: -30px;
+        top: -600px;
     }
     #sub-heading-div2{
-
+        top: 700px;
+        left: -30px;
+    }
+    .sub-div2{
+        width: 150px;
+        height: 150px;
+    }
+    #sub-div21{
+        transform: rotate(0deg);
     }
 }
