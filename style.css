@@ -2962,7 +2962,7 @@ button, a{
         overflow-x: hidden;
     }
     #home-section-1{
-        height: 1100px;
+        height: 950px;
     }
     #ufo-1{
         width: 180px;
@@ -3010,7 +3010,7 @@ button, a{
         position: absolute;
         left: 150px;
         width: 150px;
-        top: -310px;
+        top: -280px;
     }
     #sub-heading-div2{
         top: 670px;
@@ -3032,6 +3032,9 @@ button, a{
     }
     #home-section-2{
         height: 600px;
+    }
+    #mist-container{
+        display: none;
     }
     #id-text{
         font-size: 30px;
