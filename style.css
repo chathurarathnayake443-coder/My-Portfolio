@@ -2962,7 +2962,7 @@ button, a{
         overflow-x: hidden;
     }
     #home-section-1{
-        height: 130vh;
+        height: 1100px;
     }
     #ufo-1{
         width: 180px;
@@ -3013,20 +3013,30 @@ button, a{
         top: -310px;
     }
     #sub-heading-div2{
-        top: 700px;
+        top: 670px;
         left: -30px;
+        font-size: 10px;
     }
     .sub-div2{
-        width: 150px;
-        height: 150px;
+        width: 120px;
+        height: 120px;
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        right: 8px;
     }
     #sub-div21{
         transform: rotate(0deg);
     }
+    #home-section-2{
+        height: 600px;
+    }
     #id-text{
-        font-size: 38px;
+        font-size: 30px;
         position: relative;
-        left: 170px;
+        left: 130px;
     }
     #about-me{
         width: 350px;
