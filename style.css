@@ -2670,7 +2670,7 @@ button, a{
     to   { transform: rotateX(360deg) rotateY(360deg); }
 }
 
-@media all and (max-width: 520px) {
+@media all and (max-width: 425px) {
     #yt-video-section > p{
         text-align: center;
         font-family: "Outfit", sans-serif;
