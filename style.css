@@ -3031,4 +3031,20 @@ button, a{
     #about-me{
         width: 350px;
     }
+    @keyframes ufo1{
+        0%{
+            transform: translateX(10px) translateY(20px);
+        }
+        100%{
+            transform: translateX(-10px) translateY(0px) rotate(-5deg);
+        }
+    }
+    @keyframes ufo2{
+        0%{
+            transform: translateX(-10px) translateY(-20px);
+        }
+        100%{
+            transform: translateX(10px) translateY(0px) rotate(10deg);
+        }
+    }
 }
