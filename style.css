@@ -2975,14 +2975,14 @@ button, a{
         margin-left: 10px;
     }
     #heading-piece{
-        left: 190px;
+        left: 180px;
         font-size: 30px;
         top: 250px;
     }
     #hero-heading{
         top: 200px;
         font-size: 30px;
-        left: 40px;
+        left: 30px;
     }
     #its-text{
         top: 130px;
@@ -2990,8 +2990,8 @@ button, a{
         font-size: 40px;
     }
     #hero-astro{
-        left: 28%;
-        width: 200px;
+        left: 26%;
+        width: 180px;
         top: 160px;
     }
     #explore{
@@ -3002,15 +3002,15 @@ button, a{
     }
     #sub-heading-div1{
         font-size: 15px;
-        left: 10px;
+        left: 2px;
         width: 380px;
-        top: 550px;
+        top: 520px;
     }
     #floating-island{
         position: absolute;
         left: 150px;
-        width: 200px;
-        top: -300px;
+        width: 150px;
+        top: -310px;
     }
     #sub-heading-div2{
         top: 700px;
