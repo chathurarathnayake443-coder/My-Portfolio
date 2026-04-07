@@ -2962,7 +2962,7 @@ button, a{
         overflow-x: hidden;
     }
     #home-section-1{
-        height: 150vh;
+        height: 130vh;
     }
     #ufo-1{
         width: 180px;
@@ -3004,7 +3004,7 @@ button, a{
         font-size: 15px;
         left: 2px;
         width: 380px;
-        top: 520px;
+        top: 535px;
     }
     #floating-island{
         position: absolute;
@@ -3022,5 +3022,13 @@ button, a{
     }
     #sub-div21{
         transform: rotate(0deg);
+    }
+    #id-text{
+        font-size: 38px;
+        position: relative;
+        left: 170px;
+    }
+    #about-me{
+        width: 350px;
     }
 }
