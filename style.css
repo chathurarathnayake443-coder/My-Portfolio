@@ -1839,6 +1839,8 @@ main > section:nth-child(4) > p{
 #line{
     position: relative;
     top: 135px;
+    transform: rotate(10deg);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 #about-me-div{
     width: 70px;
@@ -1857,6 +1859,8 @@ main > section:nth-child(4) > p{
     transform: translateX(500px) translateY(150px);
     position: relative;
     z-index: 2;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 #chathura-text{
     font-family: 'Outfit', sans-serif;
@@ -2228,6 +2232,105 @@ main > section:nth-child(4) > p{
 }
 .time, .company{
     color: coral;
+}
+#personal-div{
+    height: 450px;
+    width: 550px;
+    position: relative;
+    bottom: 300px;
+    left: 740px;
+}
+/* Tooltip */
+.personal-div::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 110%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    background: black;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 12px;
+
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    white-space: nowrap;
+}
+
+/* Show on hover */
+.personal-div:hover::after {
+    opacity: 1;
+}
+.personal-div{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    color: orangered;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background: linear-gradient(to bottom, black, rgb(46, 46, 46));
+    transition-duration: 0.6s;
+    z-index: 1;
+}
+#personal-div1:hover {
+    transform: rotate(0deg) scale(1.1);
+    z-index: 2;
+}
+
+#personal-div2:hover {
+    transform: rotate(0deg) scale(1.1);
+    z-index: 2;
+}
+
+#personal-div3:hover {
+    transform: rotate(0deg) scale(1.1);
+    z-index: 2;
+}
+
+#personal-div4:hover {
+    transform: rotate(0deg) scale(1.1);
+    z-index: 2;
+}
+
+#personal-div5:hover {
+    transform: rotate(0deg) scale(1.1);
+    z-index: 2;
+}
+#personal-div5{
+    top: 220px;
+    left: 290px;
+    transform: rotate(10deg);
+}
+#info{
+    font-family: "Outfit", sans-serif;
+    font-weight: normal;
+}
+#personal-div4{
+    top: 240px;
+    left: 90px;
+    transform: rotate(-10deg);
+}
+#personal-div3{
+    top: 20px;
+    left: 290px;
+    transform: rotate(-10deg);
+}
+#personal-div2{
+    top: 80px;
+    left: 130px;
+    transform: rotate(-5deg);
+}
+#personal-div1{
+    top: 5px;
+    left: 5px;
+    transform: rotate(-5deg);
 }
 @keyframes shootingStar {
     0% {
