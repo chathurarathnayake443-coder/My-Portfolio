@@ -2958,6 +2958,9 @@ button, a{
             transform: translateX(-360vw);
         }
     }
+    #home-section-1,#home-section-2,#home-section-3,#home-section-4,#home-section-5,#home-section-6,#home-section-7,#home-section-8{
+        overflow-x: hidden;
+    }
     #ufo-1{
         width: 200px;
         margin-top: 80px;
