@@ -2981,7 +2981,7 @@ button, a{
     #hero-heading{
         top: 200px;
         font-size: 35px;
-        left: 20px;
+        left: 10px;
     }
     #its-text{
         top: 130px;
@@ -3007,9 +3007,9 @@ button, a{
     }
     #floating-island{
         position: absolute;
-        right: 1050px;
+        left: 150px;
         width: 200px;
-        top: -600px;
+        top: -300px;
     }
     #sub-heading-div2{
         top: 700px;
