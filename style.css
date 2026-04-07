@@ -1842,6 +1842,9 @@ main > section:nth-child(4) > p{
     transform: rotate(10deg);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
+button, a{
+    cursor: url("assets/images/cursor.png") 16 16 , auto;
+}
 #about-me-div{
     width: 70px;
     height: 20px;
@@ -2240,7 +2243,6 @@ main > section:nth-child(4) > p{
     bottom: 300px;
     left: 740px;
 }
-/* Tooltip */
 .personal-div::after {
     content: attr(data-tooltip);
     position: absolute;
@@ -2260,7 +2262,6 @@ main > section:nth-child(4) > p{
     white-space: nowrap;
 }
 
-/* Show on hover */
 .personal-div:hover::after {
     opacity: 1;
 }
@@ -2956,5 +2957,48 @@ main > section:nth-child(4) > p{
         90%,100%{
             transform: translateX(-360vw);
         }
+    }
+    #ufo-1, #ufo-2{
+        width: 200px;
+        margin-top: 90px;
+        margin-left: 30px;
+    }
+    #heading-piece{
+        left: 220px;
+        font-size: 30px;
+    }
+    #hero-heading{
+        top: 220px;
+        font-size: 40px;
+        left: 20px;
+    }
+    #its-text{
+        top: 160px;
+        left: 210px;
+        font-size: 40px;
+    }
+    #hero-astro{
+        left: 30%;
+        width: 200px;
+        top: 200px;
+    }
+    #explore{
+        top: 600px;
+        font-size: 15px;
+        width: 130px;
+    }
+    #sub-heading-div1{
+        font-size: 15px;
+        left: 2px;
+        width: 460px;
+        top: 610px;
+    }
+    #floating-island{
+        right: 1020px;
+        width: 200px;
+        top: -20px;
+    }
+    #mist-container{
+
     }
 }
