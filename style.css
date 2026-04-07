@@ -2977,11 +2977,12 @@ button, a{
     #heading-piece{
         left: 190px;
         font-size: 30px;
+        top: 250px;
     }
     #hero-heading{
         top: 200px;
-        font-size: 35px;
-        left: 10px;
+        font-size: 30px;
+        left: 40px;
     }
     #its-text{
         top: 130px;
