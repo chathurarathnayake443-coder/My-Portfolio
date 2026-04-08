@@ -3060,7 +3060,7 @@ button, a{
     }
 
     #home-section-3 {
-        height: 1800px;
+        height: 1550px;
         overflow: hidden;
     }
 
@@ -3181,6 +3181,31 @@ button, a{
         left: 195px;
         top: -230px;
         transform: rotate(0deg);
+    }
+    #home-section-4{
+        height: 650px;
+    }
+    #education-heading{
+        right: 150px;
+        font-size: 30px;
+    }
+    #edu-cont{
+        left: 25px;
+        width: 350px;
+        height: 550px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .small-edu{
+        position: relative;
+        width: 150px;
+        height: 150px;
+        top: -10px;
+        left: 12px;
+        margin-top: 15px;
+    }
+    .small-edu > img{
+        width: 100px;
     }
 
     @keyframes ufo1{
