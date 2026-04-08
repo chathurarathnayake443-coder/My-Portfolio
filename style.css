@@ -3251,6 +3251,7 @@ button, a{
 
     .project-div {
         position: relative;
+        overflow: hidden;
         min-width: 280px;  /* fixed card width */
         width: 280px;
         height: 300px;
@@ -3279,9 +3280,9 @@ button, a{
     }
 
     .proj-image {
-        width: 95%;
-        left: 5px;
-        top: 5px;
+        width: 110%;
+        left: 0;
+        top: 0;
     }
 
     .case-study {
