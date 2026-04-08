@@ -3909,6 +3909,41 @@ button, a{
     footer video{
         display: none;
     }
+    .nav-list{
+        flex-direction: column;
+        background: whitesmoke;
+        position: absolute;
+        top: 0;
+        right: -900px;
+        width: 80%;
+        height: 40vh;
+        padding-top: 80px;
+        transition: all 0.3s ease;
+        text-decoration: none;
+        color: white;
+        border: 2px solid dimgray;
+        border-radius: 30px;
+        opacity: 0.8;
+    }
+    .nav-list a{
+        text-decoration: none;
+        color: black;
+        font-family: "Outfit", sans-serif;
+        display: block;
+        margin-top: 20px;
+        margin-left: 130px;
+    }
+    .nav-list.active{
+        right: 0;
+    }
+    .nav-list li:not(:last-child){
+        text-align: left;
+        width: 100%;
+        padding: 10px 30px;
+    }
+    #nav-line{
+        width: 90%;
+    }
 
 }
 
