@@ -3597,6 +3597,7 @@ button, a{
         top: 0;
         border-radius: 30px;
         border: 2px solid black;
+        overflow: hidden;
     }
     #mobile-nav > i{
         transform: translateY(12px) translateX(-12px);
