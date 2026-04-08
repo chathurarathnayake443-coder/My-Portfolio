@@ -3891,6 +3891,23 @@ button, a{
     }
     .content-div > p, .content-div > a, .content-div >  nav > a{
         font-size: 10px;
+        color: dimgray;
+    }
+
+    footer{
+        height: 40vh;
+        background-color: whitesmoke;
+    }
+
+    footer .blotter{
+        display: none;
+    }
+    #copyright{
+        color: dimgray;
+    }
+
+    footer video{
+        display: none;
     }
 
 }
