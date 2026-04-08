@@ -3228,6 +3228,56 @@ button, a{
         left: 140px;
         font-size: 30px;
     }
+    #home-section-5 {
+        height: 500px;
+        overflow: hidden;
+    }
+
+    #home-section-6 {
+        height: auto;
+        min-height: 2800px;
+        overflow: hidden;
+    }
+
+    #project-cont {
+        height: auto;
+        min-height: 2600px;
+        position: relative;
+    }
+
+    /* Stack project cards vertically instead of absolute positioning */
+    .project-div {
+        position: relative;
+        width: 65%;
+        margin: 15px auto;
+        left: auto;
+        top: auto;
+        height: auto;
+        min-height: 280px;
+    }
+
+    /* Reset all absolute positions on project divs */
+    #project-div-1, #project-div-2, #project-div-3,
+    #project-div-4, #project-div-5, #project-div-6,
+    #project-div-7, #project-div-8, #project-div-9,
+    #project-div-10, #project-div-11, #project-div-12,
+    #project-div-13, #project-div-14, #project-div-15 {
+        top: auto;
+        left: auto;
+        right: auto;
+        bottom: auto;
+    }
+
+    .proj-image {
+        width: 98%;
+        left: 2px;
+        top: 10px;
+    }
+
+    .case-study {
+        margin-left: auto;
+        margin-right: auto;
+    }
 
     @keyframes ufo1{
         0%{
