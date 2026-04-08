@@ -3888,6 +3888,9 @@ button, a{
         height: 120px;
         border-radius: 20px;
     }
+    .content-div > p, .content-div > a, .content-div >  nav > a{
+        font-size: 10px;
+    }
 
 }
 
