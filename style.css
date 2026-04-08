@@ -3044,12 +3044,13 @@ button, a{
     #id-text{
         font-size: 30px;
         position: relative;
-        left: 130px;
+        left: 140px;
     }
     #about-me{
         width: 350px;
         font-size: 15px;
     }
+
     #home-section-1,
     #home-section-2,
     #home-section-3 {
@@ -3079,12 +3080,6 @@ button, a{
     #about-card-cont {
         left: 20px;
         top: 80px;
-    }
-
-    #personal-div {
-        left: 20px;
-        bottom: auto;
-        top: 900px;
     }
     #cv-div{
         flex-direction: column;
@@ -3131,7 +3126,7 @@ button, a{
     #about-card-cont{
         width: 280px;
         height: 440px;
-        left: 60px;
+        left: 50px;
         top: -85px;
         flex-direction: column;
     }
@@ -3151,6 +3146,43 @@ button, a{
         top: 300px;
         transform: rotate(0deg);
     }
+    #personal-div{
+        left: 20px;
+        bottom: auto;
+        width: 350px;
+        top: -50px;
+    }
+    #info{
+        position: relative;
+        right: 70px;
+    }
+    .personal-div{
+        position: relative;
+        width: 150px;
+        height: 150px;
+    }
+    #personal-div1{
+        transform: rotate(0deg);
+    }
+    #personal-div2{
+        transform: rotate(0deg);
+        left: 195px;
+        top: -145px;
+    }
+    #personal-div3{
+        left: 5px;
+        top: -80px;
+        transform: rotate(0deg);
+    }
+    #personal-div3 > img{
+        width: 100px;
+    }
+    #personal-div4{
+        left: 195px;
+        top: -230px;
+        transform: rotate(0deg);
+    }
+
     @keyframes ufo1{
         0%{
             transform: translateX(10px) translateY(20px);
