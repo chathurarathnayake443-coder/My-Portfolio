@@ -3177,13 +3177,13 @@ button, a{
     }
     #explore{
         top: 600px;
-        font-size: 15px;
+        font-size: 12px;
         width: 130px;
         margin-left: 110px;
     }
     #sub-heading-div1 {
         width: 90vw;
-        left: 7px;
+        left: 20px;
         font-size: 15px;
         top: 535px;
         box-sizing: border-box;
@@ -3218,9 +3218,6 @@ button, a{
         overflow: hidden;
         max-width: 100vw;
         height: 600px;
-    }
-    #mist-container{
-
     }
     body {
         overflow-x: hidden;
