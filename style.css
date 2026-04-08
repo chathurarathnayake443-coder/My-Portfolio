@@ -3160,9 +3160,14 @@ button, a{
         position: relative;
         width: 150px;
         height: 150px;
+        background: white;
+        color: black;
+        font-family: "Outfit", sans-serif;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     }
     #personal-div1{
         transform: rotate(0deg);
+        font-size: 25px;
     }
     #personal-div2{
         transform: rotate(0deg);
@@ -3181,6 +3186,7 @@ button, a{
         left: 195px;
         top: -230px;
         transform: rotate(0deg);
+        font-size: 20px;
     }
     #home-section-4{
         height: 650px;
@@ -3208,7 +3214,7 @@ button, a{
         width: 100px;
     }
     #home-section-5{
-        height: 450px;
+        height: 400px;
     }
     #card-cont{
         width: 340px;
@@ -3217,6 +3223,10 @@ button, a{
     }
     .ach-cards{
         width: 80%;
+    }
+    #project-heading{
+        left: 140px;
+        font-size: 30px;
     }
 
     @keyframes ufo1{
