@@ -3207,6 +3207,17 @@ button, a{
     .small-edu > img{
         width: 100px;
     }
+    #home-section-5{
+        height: 450px;
+    }
+    #card-cont{
+        width: 340px;
+        left: 50px;
+        height: 300px;
+    }
+    .ach-cards{
+        width: 80%;
+    }
 
     @keyframes ufo1{
         0%{
