@@ -3605,9 +3605,33 @@ button, a{
     #mobile-nav > img{
         transform: translateX(20px);
     }
+    #mobile-nav > p{
+        font-family: "Outfit", sans-serif;
+    }
+    #btn-group1{
+        transform: translateY(600px);
+    }
+    #ui-2-container{
+        height: 700px;
+    }
+    .ui-hover-btn{
+        width: 100px;
+        height: 40px;
+    }
+    #oop-video1{
+        width: 200px;
+        right: 20px;
+        bottom: 5px;
+    }
     #project-3-video-div{
         width: 90%;
         left: 17px;
+    }
+    #project-section-1{
+        height: 600px;
+    }
+    #project-section-1 > p{
+        margin-top: 60px;
     }
 }
 
