@@ -3033,7 +3033,7 @@ button, a{
         transform: rotate(0deg);
     }
     #home-section-2{
-        height: 600px;
+        height: 650px;
     }
     #mist-container{
         display: none;
@@ -3048,6 +3048,7 @@ button, a{
     }
     #about-me{
         width: 350px;
+        font-size: 15px;
     }
     #home-section-1,
     #home-section-2,
@@ -3082,6 +3083,37 @@ button, a{
         left: 20px;
         bottom: auto;
         top: 900px;
+    }
+    #cv-div{
+        flex-direction: column;
+        width: 350px;
+        height: 230px;
+        position: relative;
+        left: 25px;
+    }
+    #get-cv-btn{
+        width: 80px;
+        position: relative;
+        right: 100px;
+        font-size: 15px;
+        height: 30px;
+    }
+    #client-name-input{
+        position: relative;
+        right: 20px;
+    }
+    #client-name{
+        position: relative;
+        right: 130px;
+    }
+    #client-click{
+        position: relative;
+        height: 30px;
+        font-size: 15px;
+        width: 80px;
+        left: 100px;
+        background-color: yellowgreen;
+        color: white;
     }
     @keyframes ufo1{
         0%{
