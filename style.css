@@ -3214,12 +3214,13 @@ button, a{
         width: 100px;
     }
     #home-section-5{
-        height: 400px;
+        height: 450px;
     }
     #card-cont{
         width: 340px;
         left: 50px;
         height: 300px;
+        top: 80px;
     }
     .ach-cards{
         width: 80%;
@@ -3228,35 +3229,39 @@ button, a{
         left: 140px;
         font-size: 30px;
     }
-    #home-section-5 {
-        height: 500px;
-        overflow: hidden;
-    }
-
-    #home-section-6 {
-        height: auto;
-        min-height: 2800px;
-        overflow: hidden;
-    }
-
     #project-cont {
+        display: flex;
+        flex-direction: row;
+        overflow-x: scroll;
+        overflow-y: visible;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch; /* smooth scrolling on iOS */
+        gap: 15px;
+        padding: 20px 15px;
         height: auto;
-        min-height: 2600px;
+        min-height: unset;
         position: relative;
+        /* hide the scrollbar visually */
+        scrollbar-width: none; /* Firefox */
     }
 
-    /* Stack project cards vertically instead of absolute positioning */
+    #project-cont::-webkit-scrollbar {
+        display: none; /* Chrome/Safari */
+    }
+
     .project-div {
         position: relative;
-        width: 65%;
-        margin: 15px auto;
-        left: auto;
+        min-width: 280px;  /* fixed card width */
+        width: 280px;
+        height: 300px;
         top: auto;
-        height: auto;
-        min-height: 280px;
+        left: auto;
+        right: auto;
+        bottom: auto;
+        flex-shrink: 0; /* prevent cards from shrinking */
+        scroll-snap-align: start; /* snaps each card into place */
     }
 
-    /* Reset all absolute positions on project divs */
     #project-div-1, #project-div-2, #project-div-3,
     #project-div-4, #project-div-5, #project-div-6,
     #project-div-7, #project-div-8, #project-div-9,
@@ -3268,16 +3273,22 @@ button, a{
         bottom: auto;
     }
 
+    #home-section-6 {
+        height: 500px;
+        overflow: hidden;
+    }
+
     .proj-image {
-        width: 98%;
-        left: 2px;
-        top: 10px;
+        width: 95%;
+        left: 5px;
+        top: 5px;
     }
 
     .case-study {
         margin-left: auto;
         margin-right: auto;
     }
+}
 
     @keyframes ufo1{
         0%{
