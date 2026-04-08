@@ -3116,6 +3116,40 @@ button, a{
         left: 100px;
         background-color: yellowgreen;
         color: white;
+        border: none;
+    }
+    #line{
+        transform: rotate(0deg);
+        position: relative;
+        top: -88px;
+    }
+    .about-card{
+        width: 280px;
+        height: 80px;
+        font-size: 10px;
+    }
+    #about-card-cont{
+        width: 280px;
+        height: 440px;
+        left: 60px;
+        top: -85px;
+        flex-direction: column;
+    }
+    #about-card-4{
+        top: -5px;
+        transform: rotate(0deg);
+    }
+    #about-card-3{
+        top: 100px;
+        transform: rotate(0deg);
+    }
+    #about-card-2{
+        top: 200px;
+        transform: rotate(0deg);
+    }
+    #about-card-1{
+        top: 300px;
+        transform: rotate(0deg);
     }
     @keyframes ufo1{
         0%{
