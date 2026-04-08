@@ -2657,6 +2657,9 @@ button, a{
     font-family: "Outfit", sans-serif;
     font-size: 20px;
 }
+.nav-list{
+    display: none;
+}
 
 .front  { transform: translateZ(100px); }
 .back   { transform: translateZ(-100px) rotateY(180deg); }
@@ -3217,7 +3220,7 @@ button, a{
         height: 600px;
     }
     #mist-container{
-        display: none;
+
     }
     body {
         overflow-x: hidden;
@@ -3935,6 +3938,7 @@ button, a{
     }
     .nav-list.active{
         right: 0;
+        transform: translateY(0);
     }
     .nav-list li:not(:last-child){
         text-align: left;
