@@ -3605,6 +3605,10 @@ button, a{
     #mobile-nav > img{
         transform: translateX(20px);
     }
+    #project-3-video-div{
+        width: 90%;
+        left: 17px;
+    }
 }
 
     @keyframes ufo1{
