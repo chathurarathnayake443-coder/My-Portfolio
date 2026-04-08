@@ -3065,13 +3065,15 @@ button, a{
 
     #my-photo {
         transform: translateX(50px) translateY(80px);
+        box-shadow: none;
         width: 280px;
     }
 
     #chathura-text {
-        font-size: 80px;
-        top: 80px;
-        left: 0;
+        font-size: 65px;
+        top: -430px;
+        left: 15px;
+        position: relative;
     }
 
     #about-card-cont {
