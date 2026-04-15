@@ -4196,6 +4196,10 @@ button, a{
     video {
         width: 100% !important;
     }
+
+    .img{
+        width: 200px;
+    }
 }
 
 @media screen and (max-width: 320px) {
