@@ -4200,6 +4200,10 @@ button, a{
     .img{
         width: 200px;
     }
+
+    #chathura-text{
+        font-size: 200px;
+    }
 }
 
 @media screen and (max-width: 320px) {
