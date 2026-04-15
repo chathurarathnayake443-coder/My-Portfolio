@@ -4197,6 +4197,161 @@ button, a{
         width: 100% !important;
     }
 }
+
+@media screen and (max-width: 320px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    /* ---------- NAV ---------- */
+    #desktop-nav {
+        display: none;
+    }
+
+    #mobile-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .nav-list {
+        display: none; /* you can toggle with JS */
+    }
+
+    /* ---------- HERO SECTION ---------- */
+    #home-section-1 {
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    #hero-heading {
+        font-size: 24px;
+        position: static;
+    }
+
+    #its-text,
+    #heading-piece {
+        font-size: 18px;
+        position: static;
+    }
+
+    #sub-heading-div1 {
+        font-size: 12px;
+        position: static;
+        margin-top: 10px;
+    }
+
+    #sub-heading-div2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sub-div2 h1 {
+        font-size: 24px !important;
+    }
+
+    /* REMOVE ABSOLUTE IMAGES */
+    #ufo-1,
+    #ufo-2,
+    #hero-astro,
+    #floating-island {
+        display: none;
+    }
+
+    /* ---------- ABOUT SECTION ---------- */
+    #home-section-2 {
+        padding: 15px;
+    }
+
+    #about-me {
+        font-size: 12px;
+        line-height: 1.6;
+    }
+
+    #cv-div {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* ---------- ABOUT CARDS ---------- */
+    #about-card-cont {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .about-card {
+        width: 100%;
+    }
+
+    /* ---------- PERSONAL ---------- */
+    #personal-div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .personal-div {
+        width: 80px;
+        height: 80px;
+    }
+
+    /* ---------- EDUCATION ---------- */
+    #edu-cont {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
+    .small-edu img {
+        width: 100%;
+    }
+
+    /* ---------- PROJECTS ---------- */
+    #project-cont {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .project-div {
+        width: 100%;
+    }
+
+    .proj-image {
+        width: 100%;
+    }
+
+    /* ---------- FEEDBACK ---------- */
+    #feedback-cont {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    #grid-cont img {
+        width: 100%;
+    }
+
+    #feed-para {
+        font-size: 12px;
+    }
+
+    /* ---------- FOOTER ---------- */
+    #footer-content {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    video {
+        width: 100% !important;
+    }
+}
     @keyframes ufo1{
         0%{
             transform: translateX(10px) translateY(20px);
