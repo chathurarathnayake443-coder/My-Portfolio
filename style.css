@@ -4204,6 +4204,10 @@ button, a{
     #chathura-text{
         font-size: 200px;
     }
+
+    #client-click{
+        margin-left: 20px;
+    }
 }
 
 @media screen and (max-width: 320px) {
