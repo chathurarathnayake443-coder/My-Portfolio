@@ -4203,6 +4203,109 @@ button, a{
     }
 }
 
+/* ============================================================
+   TABLET SIZE (768px) - iPad / Tablet
+   ============================================================ */
+@media screen and (max-width: 768px) {
+    /* Navigation */
+    #desktop-nav { display: none; }
+    #mobile-nav { display: flex !important; }
+
+    /* Hero Section */
+    #hero-heading, #heading-piece, #its-text {
+        font-size: 50px;
+        left: 20px !important;
+        text-align: left;
+    }
+    #hero-astro { width: 250px; left: 50%; transform: translateX(-50%); top: 150px; }
+    #sub-heading-div1 { width: 90%; left: 5%; top: 450px; font-size: 14px; }
+    #sub-heading-div2 { left: 5%; top: 600px; width: 90%; }
+    #floating-island { width: 250px; top: -150px; left: 150px; }
+
+    /* About Section */
+    #chathura-text { font-size: 100px; top: 50px; left: 10px; }
+    #my-photo { width: 300px; transform: translateX(200px) translateY(120px); }
+    #about-card-cont { left: 20px; top: 100px; }
+    #personal-div { left: 50%; transform: translateX(-50%); top: 500px; }
+
+    /* Experience Page */
+    #brief-case, #i-phone, #mac, #ipods {
+        position: relative !important;
+        top: 0 !important;
+        left: 0 !important;
+        right: 0 !important;
+        width: 60% !important;
+        margin: 20px auto !important;
+        display: block;
+        transform: none !important;
+    }
+    #experience-section-1 { height: auto; padding-top: 100px; }
+
+    /* Gallery Grid Fix */
+    #gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        height: auto;
+    }
+    .img { width: 100% !important; position: static !important; margin: 0 !important; }
+}
+
+/* ============================================================
+   MOBILE STANDARD (375px) - iPhone / Android
+   ============================================================ */
+@media screen and (max-width: 375px) {
+    /* Global Reset to stop horizontal scroll */
+    html, body { overflow-x: hidden; width: 100vw; }
+
+    /* Hero */
+    #hero-heading { font-size: 35px; top: 220px; }
+    #heading-piece { font-size: 35px; top: 260px; left: 160px !important; }
+    #its-text { font-size: 35px; top: 180px; }
+
+    /* Personal Branding */
+    #chathura-text { font-size: 60px; top: -10px; }
+    #my-photo { width: 250px; transform: translateX(30px) translateY(80px); }
+    #qualifications { transform: none; position: relative; top: 120px; left: 10px; padding: 10px; }
+
+    /* Stats Cards */
+    .sub-div2 { width: 100px; height: 100px; }
+    .sub-div2 h1 { font-size: 30px !important; }
+
+    /* Career Cards Stacking */
+    #about-card-cont { width: 95%; left: 2.5%; top: 150px; }
+    .about-card { width: 100%; height: auto; padding: 10px; margin-bottom: 10px; position: static !important; transform: none !important; }
+
+    /* Info Bubbles */
+    .personal-div { width: 120px; height: 120px; font-size: 18px; position: static !important; margin: 10px auto !important; }
+    #personal-div { display: flex; flex-wrap: wrap; width: 100%; top: 250px; left: 0; }
+
+    /* Education items */
+    .small-edu { width: 140px; height: 140px; margin: 5px; }
+}
+
+/* ============================================================
+   SMALL MOBILE (320px) - iPhone SE / Small Devices
+   ============================================================ */
+@media screen and (max-width: 320px) {
+    #hero-heading { font-size: 30px; }
+    #sub-heading-div1 { font-size: 12px; }
+
+    /* Project Titles */
+    #project-heading, #education-heading { font-size: 28px !important; left: 0 !important; text-align: center; }
+
+    /* YouTube iframe adjustments */
+    .yt-div iframe { height: 180px; }
+
+    /* Forms */
+    #say-hi-form { width: 95%; }
+    #submit-btn { width: 120px; font-size: 12px; }
+
+    /* Footer Text */
+    .content-div p { font-size: 12px; }
+    .content-div nav a { font-size: 10px; margin-top: 10px; }
+}
+
     @keyframes ufo1{
         0%{
             transform: translateX(10px) translateY(20px);
