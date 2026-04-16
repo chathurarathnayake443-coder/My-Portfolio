@@ -640,7 +640,19 @@
 </footer>
 
 <script src="https://www.hxstrive.com/cdn/libs/font-awesome/7.0.1/js/all.min.js"></script>
-<script src="script.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const navBtn = document.querySelector('#ham-icon');
+        const navList = document.querySelector('.nav-list');
+
+        if (navBtn && navList) {
+            navBtn.addEventListener('click', function () {
+                console.log("Hello");
+                navList.classList.toggle('active');
+            });
+        }
+    });
+</script>
 </body>
 </html>
 

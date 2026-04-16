@@ -2436,6 +2436,9 @@ button, a{
 .tooltip a:hover{
     text-decoration: underline;
 }
+.nav-list{
+    display: none;
+}
 
 @keyframes shootingStar {
     0% {
