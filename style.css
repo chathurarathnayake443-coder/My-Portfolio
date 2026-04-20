@@ -4,7 +4,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 4;
+    z-index: 30;
     position: fixed;
 }
 
@@ -1973,7 +1973,7 @@ button, a{
 }
 #home-section-6{
     width: 100%;
-    height: 2500px;
+    height: 3500px;
     position: relative;
 }
 #project-heading{
@@ -1989,79 +1989,119 @@ button, a{
     position: relative;
 }
 .project-div{
-    height: 300px;
-    width: 330px;
+    height: 550px;
+    width: 460px;
     border: 2px solid black;
     border-radius: 30px;
     position: absolute;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
+
 #project-div-1{
-    top: 200px;
-    left: 100px;
+    top: 300px;
+    left: 10px;
 }
 #project-div-2{
-    top: 10px;
-    left: 550px;
+    top: 200px;
+    left: 500px;
 }
 #project-div-3{
-    top: 200px;
+    top: 300px;
     left: 980px;
 }
 #project-div-4{
-    top: 600px;
-    left: 80px;
+    top: 870px;
+    left: 10px;
 }
 #project-div-5{
-    top: 700px;
-    left: 550px;
+    top: 1350px;
+    left: 500px;
 }
 #project-div-6{
-    top: 600px;
-    left: 1000px;
+    top: 870px;
+    left: 980px;
 }
 #project-div-7{
-    top: 980px;
-    left: 100px;
+    top: 1450px;
+    left: 10px;
 }
 #project-div-8{
-    top: 1100px;
-    left: 550px;
+    top: 1920px;
+    left: 495px;
 }
 #project-div-9{
-    top: 980px;
+    top: 1450px;
     left: 980px;
 }
 #project-div-10{
-    top: 1400px;
-    left: 60px;
+    top: 2020px;
+    left: 10px;
 }
 #project-div-11{
-    top: 1500px;
-    left:550px;
+    top: 2500px;
+    left:500px;
 }
 #project-div-12{
-    top: 1400px;
-    left:1000px;
+    top: 2020px;
+    left:980px;
 }
 #project-div-13{
-    top: 1900px;
-    left:300px;
+    top: 2600px;
+    left:10px;
 }
 #project-div-14{
-    top: 1900px;
-    left:850px;
+    top: 2600px;
+    left:980px;
 }
 #project-div-15{
-    top: 360px;
-    left:550px;
+    top: 780px;
+    left:500px;
 }
 .proj-image{
-    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#home-section-6 > p:nth-child(2){
+    font-family: 'Outfit', sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+    color: dimgray;
     position: relative;
-    top: 10px;
-    left: 5px;
+    left: 520px;
+    margin: 0;
+}
+#home-section-6 > p:nth-child(3){
+    font-family: 'Outfit', sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+    color: dimgray;
+    position: relative;
+    left: 300px;
+    margin: 0;
+}
+#scroll{
+    height: 40px;
+    color: white;
+    border-radius: 30px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    width: 120px;
+    background-color: rgb(6,52,170);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: relative;
+    display: flex;
+    left: 46%;
+    top: 1%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 .proj-p{
     font-family: 'Outfit', sans-serif;
@@ -2455,6 +2495,55 @@ button, a{
 
 #mobile-social-media-container{
     display: none;
+}
+
+.ach-title{
+    margin-left: 20px;
+}
+.ach-title > h1{
+    font-family: "Outfit", sans-serif;
+    font-size: 30px;
+    color: white;
+    font-weight: lighter;
+}
+.ach-title > h2{
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    color: darkgray;
+    font-weight: lighter;
+}
+
+.crown{
+    position: relative;
+    left: 660px;
+    top: -100px;
+}
+
+.ach-cont{
+    display: flex;
+    flex-direction: row;
+}
+.ach-cont p{
+    color: darkgray;
+    font-family: "Outfit", sans-serif;
+    line-height: 30px;
+    transform: translateY(-50px);
+}
+
+#card-1 { --r: -10deg; z-index: 3; }
+#card-2 { --r:  -5deg; z-index: 2; }
+#card-3 { --r:  0deg; z-index: 1; }
+
+.card {
+    position: absolute;
+    animation: toFront 40s infinite;
+}
+
+@keyframes toFront {
+    0%   { transform: translate(0, 0)          rotate(var(--r)); }
+    15%  { transform: translate(-18px, -12px)  rotate(var(--r)); }
+    30%  { transform: translate(0, 0)          rotate(var(--r)); }
+    100% { transform: translate(0, 0)          rotate(var(--r)); }
 }
 
 @keyframes shootingStar {
@@ -4103,6 +4192,9 @@ button, a{
         display: block;
         opacity: 1;
         width: 200px;
+        border: none;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        background-color: rgba(255, 255, 255, 0.7);
     }
 
     .nav-list a{

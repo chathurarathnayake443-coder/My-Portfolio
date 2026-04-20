@@ -33,3 +33,20 @@ document.getElementById("submit-btn").addEventListener("click", function () {
 
     window.location.href = `mailto:chathurarathnayake971@gmail.com?subject=${subject}&body=${body}`;
 });
+
+const cards = [
+    document.getElementById('card-1'),
+    document.getElementById('card-2'),
+    document.getElementById('card-3')
+];
+
+let current = 0;
+
+setInterval(() => {
+    // drop current card to back
+    cards[current].style.zIndex = 1;
+
+    // bring next card to front
+    current = (current + 1) % cards.length;
+    cards[current].style.zIndex = 10;
+}, 2000); // every 2s matches your animation-delay interval
