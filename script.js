@@ -12,7 +12,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (navBtn && navList) {
         navBtn.addEventListener('click', function () {
-            console.log("Hello");
             navList.classList.toggle('active');
         });
     }
