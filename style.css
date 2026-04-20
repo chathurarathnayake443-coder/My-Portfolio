@@ -4098,6 +4098,10 @@ button, a{
         z-index: 4;
         left: 260px;
     }
+
+    .nav-list{
+        display: block;
+    }
 }
 
 
