@@ -4108,6 +4108,26 @@ button, a{
     .nav-list a{
         margin:18px 40px;
     }
+
+    #git-div-cont{
+        flex-direction: column;
+    }
+
+    .git-divs{
+        width: 90%;
+        transform: translateY(-100px);
+        height: 200px;
+    }
+
+    .case-div:hover .tooltip{
+        opacity: 1;
+        transform: translateX(-50%) translateY(-30%);
+        pointer-events: auto;
+    }
+
+    .tooltip a{
+        font-size: 10px;
+    }
 }
 
 
