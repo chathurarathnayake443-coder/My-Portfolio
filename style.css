@@ -4101,6 +4101,12 @@ button, a{
 
     .nav-list{
         display: block;
+        opacity: 1;
+        width: 200px;
+    }
+
+    .nav-list a{
+        margin:18px 40px;
     }
 }
 
