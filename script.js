@@ -50,3 +50,13 @@ setInterval(() => {
     current = (current + 1) % cards.length;
     cards[current].style.zIndex = 10;
 }, 2000); // every 2s matches your animation-delay interval
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+        }
+    });
+}, { threshold: 0.15 }); // triggers when 15% of element is visible
+
+document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
