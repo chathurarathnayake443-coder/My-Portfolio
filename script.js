@@ -60,3 +60,4 @@ const observer = new IntersectionObserver((entries) => {
 }, { threshold: 0.15 }); // triggers when 15% of element is visible
 
 document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+

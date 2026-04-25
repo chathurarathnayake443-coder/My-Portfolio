@@ -2629,6 +2629,13 @@ button, a{
     position: relative;
 }
 
+.int-div{
+    color: white;
+    font-family: "Outfit", sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
 @keyframes toFront {
     0%   { transform: translate(0, 0)          rotate(var(--r)); }
     15%  { transform: translate(-18px, -12px)  rotate(var(--r)); }
@@ -4397,6 +4404,36 @@ button, a{
     #scroll{
         top: 30px;
         left: 150px;
+    }
+    #experience-section-6 img{
+        height: 450px;
+    }
+    #experience-section-6{
+        height: auto;
+    }
+    #kali{
+        top: 10px;
+        width: 130px;
+    }
+    #i-robo2{
+        top: 1px;
+        left: 10px;
+        width: 200px;
+    }
+    #i-robo{
+        top: 1px;
+        right: 80px;
+        width: 200px;
+    }
+    #ui-ux{
+        top: 1px;
+        right: 50px;
+        width: 130px;
+    }
+    #cycle{
+        top: 3px;
+        left: 50px;
+        width: 100px;
     }
 }
 
