@@ -5047,6 +5047,7 @@ button, a{
         height: 340px;
         position: relative;
         margin: 80px auto 20px;
+        top: 50px;
     }
 
     #circle > div {
@@ -5107,6 +5108,7 @@ button, a{
         width: 90%;
         position: relative;
         margin: 20px auto;
+        top: -200px;
     }
 
     #text-1 {
@@ -5119,6 +5121,38 @@ button, a{
     .project-section {
         height: auto;
         padding: 30px 16px;
+    }
+
+    #zany-video, #weda-image-1, #weda-image-2, #tag-8, #oop-video2{
+        display: none;
+    }
+    #zany-text{
+        margin-left: 295px;
+    }
+    #weda-video{
+        right: 180px;
+    }
+    #weda-text{
+        width: 600px;
+        text-align: center;
+        transform: translateY(270px);
+    }
+    #weda-tags{
+        width: auto;
+        transform: translateY(190px) translateX(60px);
+    }
+    #tutor-video-1{
+        width: 597px;
+    }
+    #oop-video1{
+        margin-left: 0;
+    }
+    #oop-text-div{
+        margin-left: 280px;
+    }
+    #tag-14,#tag-15,#tag-16{
+        position: relative;
+        right: 80px;
     }
 }
 
