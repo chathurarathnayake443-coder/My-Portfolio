@@ -5123,7 +5123,7 @@ button, a{
         padding: 30px 16px;
     }
 
-    #zany-video, #weda-image-1, #weda-image-2, #tag-8, #oop-video2{
+    #zany-video, #weda-image-1, #weda-image-2, #tag-8, #oop-video2,#ui-div-2{
         display: none;
     }
     #zany-text{
@@ -5153,6 +5153,28 @@ button, a{
     #tag-14,#tag-15,#tag-16{
         position: relative;
         right: 80px;
+    }
+    #ui-2-text-div{
+        flex-direction: column;
+        margin: 0;
+    }
+    #ui-view video{
+        transform: translateX(-180px);
+    }
+    #ai-companion-text{
+        margin-top: 44px;
+    }
+    #logo-wrapper{
+        transform: rotate(8deg) translateY(-50px);
+    }
+    #software-icon-container > p{
+        font-size: 33px;
+    }
+    #git-text-cont{
+        margin-left: 182px;
+    }
+    #yt-video-div{
+        gap: 278px;
     }
 }
 
