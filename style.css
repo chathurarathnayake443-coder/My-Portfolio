@@ -4317,6 +4317,87 @@ button, a{
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         backdrop-filter: blur(5px);
     }
+
+    .ach-title {
+        margin-left: 10px;
+    }
+
+    .ach-title > h1 {
+        font-size: 18px;
+    }
+
+    .ach-title > h2 {
+        font-size: 14px;
+    }
+
+    .crown {
+        left: 300px;
+        top: 0;
+        width: 60px;
+        position: absolute;
+        right: 10px;
+    }
+
+    .ach-cont {
+        flex-direction: column;
+    }
+
+    .ach-cont p {
+        font-size: 13px;
+        line-height: 22px;
+        transform: translateY(0);
+    }
+
+    #card-1 { --r: -5deg; }
+    #card-2 { --r: -2deg; }
+    #card-3 { --r:  0deg; }
+
+    .card {
+        width: 90vw;
+    }
+
+    #best{
+        width: 200px;
+        position: relative;
+        top: 150px;
+    }
+
+    #degree{
+        width: 200px;
+        position: relative;
+        top: 150px;
+    }
+
+    #place{
+        width: 200px;
+        position: relative;
+        top: 120px;
+    }
+
+    .ach-p{
+        width: 200px;
+        position: relative;
+        right: 20px;
+        line-height: 0.5;
+    }
+
+    .ach-cont{
+        flex-direction: row;
+    }
+
+    #project-cont{
+        top: 50px;
+    }
+    #home-section-6 > p:nth-child(3){
+        font-size: 15px;
+        width: 300px;
+        left: 60px;
+        text-align: center;
+    }
+    #scroll{
+        top: 30px;
+        left: 150px;
+    }
 }
 
 
