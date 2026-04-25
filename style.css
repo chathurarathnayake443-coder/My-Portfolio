@@ -4462,6 +4462,666 @@ button, a{
     }
 }
 
+@media all and (max-width: 768px) {
+
+    /* ─────────────────────────────────────────
+       GLOBAL / SHARED
+    ───────────────────────────────────────── */
+    body {
+        overflow-x: hidden;
+    }
+
+    /* Hide desktop nav, show mobile nav */
+    #desktop-nav {
+        display: none;
+    }
+
+    #mobile-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        height: 70%;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 30;
+    }
+
+    /* Mobile nav dropdown */
+    .nav-list {
+        display: none;
+        position: fixed;
+        top: 10vh;
+        left: 0;
+        width: 100%;
+        background: rgba(255, 255, 255, 0.95);
+        backdrop-filter: blur(20px);
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+        z-index: 100;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav-list a {
+        font-family: "Outfit", sans-serif;
+        color: black;
+        text-decoration: none;
+        font-size: 18px;
+        padding: 12px 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-list hr {
+        width: 80%;
+        margin: 8px auto;
+        border: 0.5px solid rgba(0, 0, 0, 0.15);
+    }
+
+    /* Footer shared */
+    footer {
+        height: auto;
+        min-height: 60vh;
+    }
+
+    #footer-content {
+        flex-direction: row;
+        height: 100%;
+        align-items: flex-start;
+        gap: 20px;
+        padding: 106px 24px 50px;
+    }
+
+    #social-media-container {
+        top: 300px;
+        left: 250px;
+    }
+
+    .cube{
+        display: none;
+    }
+
+    .content-div {
+        height: auto;
+    }
+
+    /* ─────────────────────────────────────────
+       INDEX.HTML — SECTION 1 (Hero)
+    ───────────────────────────────────────── */
+    #home-section-1 {
+        height: 100vh;
+        position: relative;
+        overflow: hidden;
+    }
+
+    #ufo-1 {
+        width: 300px;
+        top: 100px;
+        left: 50px;
+        position: absolute;
+    }
+
+    #ufo-2 {
+        width: 260px;
+        position: absolute;
+        top: 100px;
+        right: 70px;
+        margin: 0;
+    }
+
+    #hero-astro {
+        width: 220px;
+        top: 120px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #its-text {
+        font-size: 50px;
+        top: 60px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #hero-heading {
+        font-size: 55px;
+        top: 220px;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        width: 90%;
+    }
+
+    #heading-piece {
+        font-size: 50px;
+        top: 250px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #floating-island{
+        width: 200px;
+        top: 10px;
+        left: 260px;
+    }
+
+    #sub-heading-div1 {
+        width: 88%;
+        font-size: 14px;
+        top: 50vh;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        padding: 12px;
+        height: auto;
+    }
+
+    #explore {
+        margin: 16px auto 0;
+        position: relative;
+        left: 250px;
+        top: -30px;
+    }
+
+    #sub-heading-div2 {
+        top: auto;
+        bottom: 60px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        justify-content: space-around;
+    }
+
+    .sub-div2 {
+        width: 130px;
+        height: 130px;
+    }
+
+    .sub-div2 h1 {
+        font-size: 36px !important;
+    }
+
+    /* ─────────────────────────────────────────
+       INDEX.HTML — SECTION 2 (About intro)
+    ───────────────────────────────────────── */
+    #home-section-2 {
+        height: auto;
+        padding: 40px 0 30px;
+    }
+
+    #id-text {
+        font-size: 40px;
+        transform: none;
+        text-align: center;
+        padding: 0 16px;
+    }
+
+    #about-me {
+        font-size: 15px;
+        padding: 0 24px;
+    }
+
+    #cv-div {
+        flex-direction: column;
+        height: auto;
+        gap: 14px;
+        padding: 16px;
+        align-items: center;
+    }
+
+    #client-name {
+        transform: none;
+    }
+
+    #client-name-input {
+        width: 260px;
+        transform: none;
+    }
+
+    #get-cv-btn {
+        transform: none;
+    }
+
+    #client-click {
+        transform: none;
+    }
+
+    /* ─────────────────────────────────────────
+       INDEX.HTML — SECTION 3 (About Me detail)
+    ───────────────────────────────────────── */
+    #home-section-3 {
+        height: auto;
+        padding-bottom: 60px;
+    }
+
+    #about-me-div {
+        transform: translateX(0) translateY(20px);
+        margin: 20px auto 0;
+        width: fit-content;
+    }
+
+    #chathura-text {
+        font-size: 80px;
+        top: 30px;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+
+    #my-photo {
+        width: 220px;
+        transform: translateX(50%) translateY(100px);
+        display: block;
+        margin: 0 auto;
+        position: relative;
+        left: -100px;
+    }
+
+    #qualifications {
+        position: relative;
+        transform: none;
+        font-size: 13px;
+        left: auto;
+        top: auto;
+        text-align: center;
+        padding: 20px 16px 0;
+        margin-top: 120px;
+    }
+
+    #line {
+        top: 10px;
+        transform: rotate(2deg);
+        margin: 20px 16px;
+    }
+
+    #about-card-cont {
+        width: 90%;
+        height: 650px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 20px;
+    }
+
+    .about-card {
+        width: 90%;
+        font-size: 12px;
+        left: 5%;
+    }
+
+    #about-card-1 {
+        top: 0;
+        transform: rotate(2deg);
+    }
+
+    #about-card-2 {
+        top: 150px;
+        transform: rotate(-2deg);
+    }
+
+    #about-card-3 {
+        top: 300px;
+        transform: rotate(2deg);
+    }
+
+    #about-card-4 {
+        top: 450px;
+        transform: rotate(-2deg);
+    }
+
+    #personal-div {
+        position: relative;
+        bottom: auto;
+        left: auto;
+        width: 90%;
+        height: 500px;
+        margin: 40px auto 0;
+    }
+
+    #info {
+        font-size: 22px !important;
+        transform: none !important;
+        text-align: center;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .personal-div {
+        width: 200px;
+        height: 200px;
+    }
+
+    #personal-div1 {
+        top: 30px;
+        left: 100px;
+    }
+
+    #personal-div2 {
+        top: 30px;
+        left: 450px;
+    }
+
+    #personal-div3 {
+        top: 180px;
+        left: 100px;
+    }
+
+    #personal-div4 {
+        top: 180px;
+        left: 450px;
+    }
+
+    #personal-div5 {
+        top: 330px;
+        left: 100px;
+    }
+
+    /* ─────────────────────────────────────────
+       INDEX.HTML — SECTION 4 (Education)
+    ───────────────────────────────────────── */
+    #home-section-4 {
+        height: auto;
+        padding: 40px 0 40px;
+    }
+
+    #education-heading {
+        font-size: 36px;
+        position: relative;
+        right: auto;
+        left: auto;
+        text-align: center;
+    }
+
+    #edu-cont {
+        flex-wrap: wrap;
+        height: auto;
+        width: 90%;
+        left: auto;
+        margin: 0 auto;
+        gap: 16px;
+        padding: 20px 0;
+    }
+
+    .small-edu {
+        width: 140px;
+        height: 140px;
+        border-radius: 20px;
+    }
+
+    .small-edu img {
+        max-width: 100px;
+    }
+
+    /* ─────────────────────────────────────────
+       INDEX.HTML — SECTION 5 (Achievement cards)
+    ───────────────────────────────────────── */
+    #home-section-5 {
+        height: 500px;
+    }
+
+    #card-cont {
+        width: 90%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .ach-cards {
+        width: 85%;
+    }
+
+    .crown{
+        position: absolute;
+        transform: translateX(-200px) translateY(100px);
+    }
+    #best{
+        width: 400px;
+        transform: translateY(-200px);
+    }
+    #place{
+        width: 400px;
+        transform: translateY(-75px);
+    }
+    #degree{
+        width: 400px;
+        transform: translateY(-200px);
+    }
+    /* ─────────────────────────────────────────
+       INDEX.HTML — SECTION 6 (Projects grid)
+    ───────────────────────────────────────── */
+    #home-section-6 {
+        height: auto;
+        padding-bottom: 60px;
+    }
+
+    #project-heading {
+        font-size: 44px;
+        left: auto;
+        text-align: center;
+    }
+
+    #home-section-6 > p:nth-child(2){
+        display: none;
+    }
+
+    #project-cont {
+        position: relative;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 120px 16px;
+    }
+
+    /* Reset all absolute positions on project divs */
+    .project-div {
+        position: relative !important;
+        top: auto !important;
+        left: auto !important;
+        right: auto !important;
+        bottom: auto !important;
+        width: 300px;
+        height: auto;
+        padding-bottom: 16px;
+    }
+
+    .proj-image {
+        width: 290px !important;
+        position: relative;
+        top: auto;
+        left: auto;
+    }
+
+    #pro-1, #scroll{
+        display: none;
+    }
+
+    .proj-p {
+        height: auto;
+        padding: 8px;
+    }
+
+    .case-study {
+        margin: 12px auto 0;
+    }
+
+    .proj-para{
+        display: block;
+        top: -38px;
+        left: 10px;
+    }
+
+    /* ─────────────────────────────────────────
+       INDEX.HTML — SECTION 7 (Testimonials)
+    ───────────────────────────────────────── */
+    #home-section-7 {
+        height: auto;
+        padding-bottom: 60px;
+    }
+
+    #feedback-title {
+        font-size: 44px;
+        left: auto;
+        text-align: center;
+    }
+
+    #feedback-cont {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 24px;
+    }
+
+    #grid-cont {
+        display: none;
+    }
+
+    #chris-image {
+        position: relative;
+        bottom: auto;
+        left: auto;
+        width: 180px;
+        display: block;
+        margin: 0 auto 20px;
+    }
+
+    #sup-name {
+        font-size: 20px;
+        right: auto;
+        text-align: center;
+    }
+
+    #sup-comment {
+        width: 100%;
+        right: auto;
+        top: auto;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    #sup-post {
+        top: auto;
+        right: auto;
+        width: 100%;
+        text-align: center;
+        margin-top: 16px;
+    }
+
+    #sup-company,
+    #sup-country {
+        right: auto;
+        top: auto;
+        text-align: center;
+        margin-top: 8px;
+    }
+
+    .slide-btn {
+        position: relative;
+        top: 100px;
+        left: 320px;
+        font-size: 20px;
+        display: inline-flex;
+        margin: 20px 8px 0;
+    }
+
+    #say-hi-form{
+        transform: translateX(-205px);
+    }
+
+    /* ─────────────────────────────────────────
+       PROJECTS.HTML — Grid / Circle intro
+    ───────────────────────────────────────── */
+    #grid {
+        display: none;
+    }
+
+    #circle {
+        width: 340px;
+        height: 340px;
+        position: relative;
+        margin: 80px auto 20px;
+    }
+
+    #circle > div {
+        width: 70px;
+        height: 70px;
+    }
+
+    #circle > div:nth-child(1) {
+        left: 240px;
+        top: 20px;
+    }
+
+    #circle > div:nth-child(2) {
+        left: 20px;
+        top: 20px;
+    }
+
+    #circle > div:nth-child(3) {
+        left: 130px;
+        top: -20px;
+    }
+
+    #circle > div:nth-child(4) {
+        left: -10px;
+        top: 120px;
+    }
+
+    #circle > div:nth-child(5) {
+        right: -10px;
+        top: 100px;
+    }
+
+    #circle > div:nth-child(6) {
+        left: 100px;
+        bottom: -10px;
+    }
+
+    #circle > div:nth-child(7) {
+        left: 10px;
+        bottom: 50px;
+    }
+
+    #circle > div:nth-child(8) {
+        right: -5px;
+        bottom: 70px;
+    }
+
+    #circle > div:nth-child(9) {
+        right: 60px;
+        bottom: -5px;
+    }
+
+    .tech-icons {
+        font-size: 44px;
+    }
+
+    .text-container {
+        width: 90%;
+        position: relative;
+        margin: 20px auto;
+    }
+
+    #text-1 {
+        font-size: 22px;
+    }
+
+    /* ─────────────────────────────────────────
+       PROJECTS.HTML — Project sections
+    ───────────────────────────────────────── */
+    .project-section {
+        height: auto;
+        padding: 30px 16px;
+    }
+}
+
 
 
 
