@@ -4832,61 +4832,60 @@ button, a{
         overflow-x: hidden;
     }
     #home-section-1{
-        height: 950px;
+        height: 900px;
         overflow-x: hidden;
         max-width: 100vw;
     }
     #ufo-1{
         width: 180px;
-        margin-top: 80px;
-        margin-left: 15px;
+        margin-top: 10px;
+        margin-left: 25px;
     }
     #ufo-2{
         width: 160px;
-        margin-top: 60px;
-        margin-left: 10px;
+        margin-top: 10px;
+        margin-left: 30px;
     }
     #heading-piece{
-        left: 180px;
+        left: 210px;
         font-size: 30px;
-        top: 250px;
+        top: 170px;
     }
     #hero-heading{
-        top: 200px;
+        top: 110px;
         font-size: 30px;
-        left: 30px;
+        left: 220px;
     }
     #its-text{
-        top: 130px;
-        left: 190px;
+        top: 60px;
+        left: 220px;
         font-size: 40px;
     }
     #hero-astro{
-        left: 26%;
+        left: 52%;
         width: 180px;
-        top: 160px;
+        top: 90px;
     }
     #explore{
-        top: 600px;
+        top: 15px;
         font-size: 12px;
         width: 130px;
         margin-left: 100px;
     }
     #sub-heading-div1 {
         width: 90vw;
-        left: 20px;
+        left: 220px;
         font-size: 15px;
-        top: 535px;
+        top: 480px;
         box-sizing: border-box;
     }
     #floating-island{
         position: absolute;
-        left: 110px;
+        left: 140px;
         width: 150px;
-        top: -290px;
+        top: -350px;
     }
     #sub-heading-div2 {
-        left: auto;
         right: 5px;
         width: 90vw;
         top: 670px;
@@ -4909,6 +4908,7 @@ button, a{
         overflow: hidden;
         max-width: 100vw;
         height: 600px;
+        padding-top: 0;
     }
     body {
         overflow-x: hidden;
@@ -4938,27 +4938,26 @@ button, a{
     }
 
     #home-section-3 {
-        height: 1550px;
+        height: 1350px;
         overflow: hidden;
     }
 
     #my-photo {
-        transform: translateX(50px) translateY(80px);
+        transform: translateX(60px) translateY(80px);
         box-shadow: none;
         width: 280px;
+    }
+    #qualifications{
+        top: -150px;
     }
 
     #chathura-text {
         font-size: 65px;
         top: -430px;
-        left: 15px;
+        left: 4px;
         position: relative;
     }
 
-    #about-card-cont {
-        left: 20px;
-        top: 80px;
-    }
     #cv-div {
         flex-direction: column;
         width: 90vw;
@@ -4972,6 +4971,9 @@ button, a{
         transform: none;
         width: 150px;
         font-size: 15px;
+    }
+    #about-me-div{
+        display: none;
     }
     #client-name-input {
         width: 90vw;
@@ -5000,7 +5002,7 @@ button, a{
     #line{
         transform: rotate(0deg);
         position: relative;
-        top: -88px;
+        top: -232px;
     }
     .about-card{
         width: 280px;
@@ -5010,8 +5012,8 @@ button, a{
     #about-card-cont{
         width: 280px;
         height: 440px;
-        left: 50px;
-        top: -85px;
+        left: 208px;
+        top: -160px;
         flex-direction: column;
     }
     #about-card-4{
@@ -5031,14 +5033,14 @@ button, a{
         transform: rotate(0deg);
     }
     #personal-div{
-        left: 20px;
+        left: 0px;
         bottom: auto;
         width: 350px;
-        top: -50px;
+        top: -220px;
     }
     #info{
         position: relative;
-        right: 70px;
+        right: 8px;
     }
     .personal-div{
         position: relative;
@@ -5056,7 +5058,7 @@ button, a{
     #personal-div2{
         transform: rotate(0deg);
         left: 195px;
-        top: -145px;
+        top: -120px;
     }
     #personal-div3{
         left: 5px;
@@ -5073,14 +5075,14 @@ button, a{
         font-size: 20px;
     }
     #home-section-4{
-        height: 650px;
+        height: auto;
     }
     #education-heading{
-        right: 150px;
+        right: 6px;
         font-size: 30px;
     }
     #edu-cont{
-        left: 25px;
+        left: -4px;
         width: 350px;
         height: 550px;
         display: grid;
@@ -5098,63 +5100,97 @@ button, a{
         width: 100px;
     }
     #home-section-5{
-        height: 480px;
+        height: 380px;
     }
     #card-cont{
         width: 340px;
-        left: 50px;
+        left: 190px;
         height: 300px;
-        top: 80px;
+        top: 30px;
     }
     .ach-cards{
         width: 80%;
     }
     #project-heading{
-        left: 140px;
+        left: 0;
         font-size: 30px;
     }
+    /*#project-cont {*/
+    /*    display: flex;*/
+    /*    flex-direction: row;*/
+    /*    overflow-x: scroll;*/
+    /*    overflow-y: visible;*/
+    /*    scroll-snap-type: x mandatory;*/
+    /*    -webkit-overflow-scrolling: touch;*/
+    /*    gap: 15px;*/
+    /*    padding: 20px 15px;*/
+    /*    height: 350px; !* fixed height just for the card row *!*/
+    /*    min-height: unset;*/
+    /*    position: relative;*/
+    /*    scrollbar-width: none;*/
+    /*}*/
+
     #project-cont {
         display: flex;
         flex-direction: row;
+        flex-wrap: nowrap;            /* ← reset wrap from 768px */
         overflow-x: scroll;
         overflow-y: visible;
         scroll-snap-type: x mandatory;
         -webkit-overflow-scrolling: touch;
         gap: 15px;
         padding: 20px 15px;
-        height: 350px; /* fixed height just for the card row */
+        height: 350px;
         min-height: unset;
         position: relative;
         scrollbar-width: none;
+        justify-content: flex-start;  /* ← add this */
+        align-items: flex-start;
+    }
+
+    .project-div {
+        position: relative !important;  /* ← override 768px */
+        top: auto !important;
+        left: auto !important;
+        right: auto !important;
+        bottom: auto !important;
+        min-width: 280px;
+        width: 280px;
+        height: 300px;
+        flex-shrink: 0;                 /* ← prevent cards from shrinking */
+        scroll-snap-align: start;
     }
 
     #project-cont::-webkit-scrollbar {
         display: none;
     }
 
-    .project-div {
-        position: relative;
-        overflow: hidden;
-        min-width: 280px;
-        width: 280px;
-        height: 300px;
-        top: auto;
-        left: auto;
-        right: auto;
-        bottom: auto;
-        flex-shrink: 0;
-        scroll-snap-align: start;
-    }
+    /*.project-div {*/
+    /*    position: relative;*/
+    /*    overflow: hidden;*/
+    /*    min-width: 280px;*/
+    /*    width: 280px;*/
+    /*    height: 300px;*/
+    /*    top: auto;*/
+    /*    left: auto;*/
+    /*    right: auto;*/
+    /*    bottom: auto;*/
+    /*    flex-shrink: 0;*/
+    /*    scroll-snap-align: start;*/
+    /*}*/
 
     #project-div-1, #project-div-2, #project-div-3,
     #project-div-4, #project-div-5, #project-div-6,
     #project-div-7, #project-div-8, #project-div-9,
     #project-div-10, #project-div-11, #project-div-12,
     #project-div-13, #project-div-14, #project-div-15 {
-        top: auto;
-        left: auto;
-        right: auto;
-        bottom: auto;
+        position: relative !important;
+        top: auto !important;
+        left: auto !important;
+        right: auto !important;
+        bottom: auto !important;
+        margin: 0 !important;
+        transform: none !important;
     }
 
     #home-section-6 {
@@ -5179,11 +5215,16 @@ button, a{
         display: block;
     }
 
+    #say-hi-form{
+        transform: translateX(-20px);
+    }
+
     #feedback-cont {
         flex-direction: column;
         align-items: center;
         height: auto;
         width: 100%;
+        transform: translateX(-20px);
     }
 
     #grid-cont {
