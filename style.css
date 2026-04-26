@@ -3064,7 +3064,7 @@ button, a{
         border-radius: 30px;
         box-shadow: rgba(0,0,0,0.24) 0px 3px 8px;
         border: none;
-        z-index: 998;
+        z-index: 20;
         transition: all 0.3s ease;
         opacity: 1;
     }
@@ -3928,7 +3928,7 @@ button, a{
         flex-direction: column;
         align-items: center;
         padding: 16px;
-        min-height: 300px;
+        min-height: 212px;
     }
 
     #ui-image-1 {
@@ -4733,7 +4733,7 @@ button, a{
         display: flex;
         flex-direction: row;
         width: max-content; /* shrink wraps all cards */
-        gap: 20px;
+        gap: 178px;
         margin-top: 20px;
         align-items: flex-start;
         animation: mobile-yt-scroll 25s linear infinite;
@@ -5207,6 +5207,10 @@ button, a{
         overflow: hidden;
     }
 
+    #tag-21{
+        display: none;
+    }
+
     #feedback-title {
         left: auto;
         text-align: center;
@@ -5216,7 +5220,7 @@ button, a{
     }
 
     #say-hi-form{
-        transform: translateX(-20px);
+        transform: translateX(0);
     }
 
     #feedback-cont {
@@ -5345,16 +5349,25 @@ button, a{
         transform: translateY(600px);
     }
     #ui-2-container{
-        height: 700px;
+        height: 610px;
     }
     .ui-hover-btn{
         width: 100px;
         height: 40px;
     }
+    #ui-section{
+        padding: 0;
+    }
+    #ai-logos{
+        margin-top: 40px;
+    }
     #oop-video1{
         width: 200px;
         right: 20px;
         bottom: 5px;
+    }
+    .project-section{
+        padding: 0;
     }
     #project-3-video-div{
         width: 90%;
@@ -5417,10 +5430,13 @@ button, a{
         text-align: center;
         white-space: nowrap;
     }
+    #arrow{
+        right: 80px;
+    }
 
     #curve-container {
         top: 380px;
-        left: 50%;
+        left: 57%;
         transform: translateX(-50%);
     }
 
@@ -5711,7 +5727,7 @@ button, a{
 
     .git-divs{
         width: 90%;
-        transform: translateY(-100px);
+        transform: translateY(15px) translateX(-15px);
         height: 200px;
     }
 
