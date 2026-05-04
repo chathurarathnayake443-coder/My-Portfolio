@@ -4143,7 +4143,7 @@ button, a{
     #i-phone {
         width: 220px;
         top: -180px;
-        right: -100px;
+        right: -317px;
         left: auto;
     }
 
@@ -4151,7 +4151,7 @@ button, a{
         width: 420px;
         top: 220px;
         right: auto;
-        left: 50%;
+        left: 86%;
         transform: translateX(-50%) rotate(-10deg);
     }
 
@@ -4172,7 +4172,7 @@ button, a{
     #cont > p {
         font-size: 22px;
         position: relative;
-        top: auto;
+        top: -83px;
         left: auto;
         transform: none;
         text-align: center;
@@ -4181,7 +4181,7 @@ button, a{
     #curve-container {
         top: auto;
         bottom: 30px;
-        right: 30px;
+        right: 340px;
         left: auto;
     }
 
@@ -4191,7 +4191,7 @@ button, a{
     }
 
     #circle-container {
-        overflow: hidden;
+        display: none;
     }
 
     #moment-text {
@@ -4201,10 +4201,12 @@ button, a{
         text-align: center;
         top: 200px;
         white-space: nowrap;
+        color: black;
     }
 
     /* ─── GALLERY VIDEO ─── */
     #gallery-video {
+        transform: translateY(50px);
         height: 350px;
         overflow: hidden;
     }
@@ -4360,6 +4362,43 @@ button, a{
     #int-div-4, #int-div-5 {
         width: 45%;
         height: 250px;
+    }
+
+    #experience-section-6{
+        height: 693px;
+    }
+
+    #experience-section-6 img{
+        height: 640px;
+    }
+    #int-div{
+        transform: translateX(-30px);
+    }
+
+    #kali{
+        width: 80%;
+        right: 27px;
+        top: 9px;
+    }
+    #i-robo2{
+        width: 100%;
+        top: 23px;
+        right: 60px;
+    }
+    #i-robo{
+        width: 100%;
+        top: 24px;
+        right: 88px;
+    }
+    #ui-ux{
+        width: 100%;
+        top: -21px;
+        right: 2px;
+    }
+    #cycle{
+        width: 90%;
+        right: 13px;
+        top: -33px;
     }
 
 }
